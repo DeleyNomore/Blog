@@ -1,4 +1,62 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: "/" # 通过 CI 在不同环境传入 --baseURL 覆盖（GitHub Pages/Netlify）
+languageCode: zh-cn
+title: PaperMod
 theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "Hugo + PaperMod"
+  author: "Site Author"
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  images: ["images/papermod-cover.png"]
+
+  homeInfoParams:
+    Title: "欢迎来到本站"
+    Content: >
+      这是使用 PaperMod 主题的 Hugo 站点。
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/"
+
+  editPost:
+    URL: ""
+    Text: "Suggest Changes"
+    appendFilePath: false
+
+relativeURLs: true
+canonifyURLs: false

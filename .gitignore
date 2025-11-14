@@ -3,13 +3,15 @@
 
 # ----- Hugo 生成产物/缓存 -----
 /public/
-/resources/_gen/
-/resources/_gen_public/
+/resources/
 .hugo_build.lock
 hugo_stats.json
 
 # 由 Hugo 临时生成的其它文件（可根据需要调整）
 .hugo*
+
+# Netlify
+.netlify/
 
 # ----- Node / 包管理器 -----
 node_modules/
