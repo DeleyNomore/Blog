@@ -1,0 +1,28 @@
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+{{- $monthNum := .Date | time.Format "1" -}}
+{{- $day := .Date | time.Format "2" -}}
+{{- $monthMap := dict "1" "一月" "2" "二月" "3" "三月" "4" "四月" "5" "五月" "6" "六月" "7" "七月" "8" "八月" "9" "九月" "10" "十月" "11" "十一月" "12" "十二月" -}}
+{{- $monthZH := index $monthMap $monthNum -}}
+{{- $dateStr := printf "%s %s" $monthZH $day -}}
+{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) $dateStr)) }}
+{{- end }}
+
+{{- if (.Param "ShowReadingTime") -}}
+{{- $scratch.Add "meta" (slice (printf "<span>%s</span>" (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime)))) }}
+{{- end }}
+
+{{- if (.Param "ShowWordCount") -}}
+{{- $scratch.Add "meta" (slice (printf "<span>%s</span>" (i18n "words" .WordCount | default (printf "%d words" .WordCount)))) }}
+{{- end }}
+
+{{- if not (.Param "hideAuthor") -}}
+{{- with (partial "author.html" .) }}
+{{- $scratch.Add "meta" (slice (printf "<span>%s</span>" .)) }}
+{{- end }}
+{{- end }}
+
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}

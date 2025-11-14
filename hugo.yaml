@@ -1,6 +1,6 @@
 baseURL: "/" # 通过 CI 在不同环境传入 --baseURL 覆盖（GitHub Pages/Netlify）
 languageCode: zh-cn
-title: PaperMod
+title: DeleyNomore
 theme: ["PaperMod"]
 
 enableInlineShortcodes: true
@@ -29,8 +29,9 @@ outputs:
 params:
   env: production
   description: "Hugo + PaperMod"
-  author: "Site Author"
+  author: "DeleyNomore"
   defaultTheme: auto
+  DateFormat: "1 月 2"
   ShowShareButtons: true
   ShowReadingTime: true
   displayFullLangName: true
@@ -44,14 +45,28 @@ params:
   images: ["images/papermod-cover.png"]
 
   homeInfoParams:
-    Title: "欢迎来到本站"
+    Title: "Blog"
     Content: >
-      这是使用 PaperMod 主题的 Hugo 站点。
+      👋 欢迎来到 DeleyNomore 的技术笔记。
+
+      - 记录与分享：DevOps / Docker / Linux / JS / MySQL / Windows 等实践与随笔。
+      - 导航提示：顶部可直达 Archive / Search / Tags / WiKi，左上角可切换明暗主题。
+      - 参与共建：如果内容对你有帮助，欢迎在 [GitHub](https://github.com/DeleyNomore/Blog) 点 Star 或提交建议。
+      - 延伸阅读：更多说明见本站 [WiKi](https://github.com/DeleyNomore/Blog/wiki)。
 
   socialIcons:
     - name: github
-      title: View Source on Github
-      url: "https://github.com/"
+      title: GitHub
+      url: "https://github.com/DeleyNomore/Blog"
+    - name: discord
+      title: Discord
+      url: "https://discord.gg/QYUzcyd3"
+    - name: x
+      title: X (Twitter)
+      url: "https://x.com/Deley_Nomor"
+    - name: ko-fi
+      title: Ko-fi
+      url: "https://ko-fi.com/deleynomore"
 
   editPost:
     URL: ""
@@ -60,3 +75,18 @@ params:
 
 relativeURLs: true
 canonifyURLs: false
+
+menu:
+  main:
+    - name: Archive
+      url: archives/
+      weight: 10
+    - name: Search
+      url: search/
+      weight: 20
+    - name: Tags
+      url: tags/
+      weight: 30
+    - name: WiKi
+      url: https://github.com/DeleyNomore/Blog/wiki
+      weight: 40
