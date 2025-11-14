@@ -12,6 +12,10 @@ enableEmoji: true
 pygmentsUseClasses: true
 mainsections: ["posts"]
 
+taxonomies:
+  category: categories
+  tag: tags
+
 minify:
   disableXML: true
   # minifyOutput: true
@@ -104,37 +108,9 @@ menu:
     - name: "📚 文章"
       url: posts/
       weight: 10
-    - identifier: categories
-      name: "🗂️ 分类"
+    - name: "🗂️ 分类"
+      url: categories/
       weight: 20
-    - name: "🐳 Docker"
-      url: posts/docker/
-      parent: categories
-      weight: 21
-    - name: "🧩 DevOps"
-      url: posts/devops/
-      parent: categories
-      weight: 22
-    - name: "🟨 JS"
-      url: posts/js/
-      parent: categories
-      weight: 23
-    - name: "🐧 Linux"
-      url: posts/linux/
-      parent: categories
-      weight: 24
-    - name: "💾 MySQL"
-      url: posts/mysql/
-      parent: categories
-      weight: 25
-    - name: "🐚 Shell"
-      url: posts/shell/
-      parent: categories
-      weight: 26
-    - name: "🪟 Windows"
-      url: posts/windows/
-      parent: categories
-      weight: 27
     - name: "🔎 搜索"
       url: search/
       weight: 30
