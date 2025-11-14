@@ -27,7 +27,7 @@ jobs:
           extended: true
       - name: Build
         run: |
-          hugo --minify -b "https://deleynomore.github.io/Blog/"
+          hugo --gc -b "https://deleynomore.github.io/Blog/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

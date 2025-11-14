@@ -1,0 +1,23 @@
+/* Site-level customizations (merged by PaperMod) */
+
+.twitter-tweet {
+  margin: auto;
+}
+
+iframe {
+  border-radius: var(--radius) !important;
+}
+
+.home-info ul {
+  padding-inline-start: 20px;
+}
+
+.entry-cover img {
+  border: 1px solid var(--border);
+}
+
+/* Optional tweaks: better code block wrapping on small screens */
+.post-content pre code {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
