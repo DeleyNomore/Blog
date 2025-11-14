@@ -1,0 +1,40 @@
+---
+applyTo: '**'
+---
+
+# Hugo PaperMod 参考资料汇总
+
+## 官方文档链接
+
+### PaperMod Wiki
+- [PaperMod Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features) - PaperMod 功能特性文档
+- [PaperMod FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs) - 常见问题解答
+- [PaperMod Installation](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation) - 安装指南
+- [PaperMod Variables](https://github.com/adityatelange/hugo-PaperMod/wiki/Variables) - 配置变量说明
+
+### Hugo 官方文档
+- [Hugo Taxonomies](https://gohugo.io/content-management/taxonomies/) - Hugo 分类系统文档
+- [Hugo Menus](https://gohugo.io/content-management/menus/) - Hugo 菜单系统文档
+- [Hugo Configuration](https://gohugo.io/getting-started/configuration/) - Hugo 配置文档
+
+## 本地项目文件路径
+
+### 当前项目 (hugo-blog)
+- **配置文件**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\hugo.yaml`
+- **文章目录**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\content\posts\`
+- **主题目录**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\themes\PaperMod\`
+- **自定义样式**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\assets\css\extended\custom.css`
+- **归档页面**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\content\archives.md`
+- **搜索页面**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\content\search.md`
+
+### 示例站点 (hugo-PaperMod)
+- **配置文件**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-PaperMod\config.yml`
+- **内容目录**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-PaperMod\content\`
+- **主题目录**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-PaperMod\themes\hugo-PaperMod\`
+
+## 注意事项
+
+- **不要修改主题源码**: `themes/PaperMod/` 是 git 子模块，应通过站点层配置实现定制
+- **Hugo 版本要求**: PaperMod 要求 Hugo >= v0.146.0
+- **Front Matter 格式**: categories 应为数组格式 `["分类名"]`
+- **菜单链接**: 使用相对路径 `/categories/` 而不是绝对路径
