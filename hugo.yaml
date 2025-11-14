@@ -61,9 +61,6 @@ params:
     - name: discord
       title: Discord
       url: "https://discord.gg/QYUzcyd3"
-    - name: x
-      title: X (Twitter)
-      url: "https://x.com/Deley_Nomor"
     - name: ko-fi
       title: Ko-fi
       url: "https://ko-fi.com/deleynomore"
@@ -104,15 +101,46 @@ canonifyURLs: false
 
 menu:
   main:
-    - name: Archive
-      url: archives/
+    - name: "📚 文章"
+      url: posts/
       weight: 10
-    - name: Search
-      url: search/
+    - identifier: categories
+      name: "🗂️ 分类"
       weight: 20
-    - name: Tags
-      url: tags/
+    - name: "🐳 Docker"
+      url: posts/docker/
+      parent: categories
+      weight: 21
+    - name: "🧩 DevOps"
+      url: posts/devops/
+      parent: categories
+      weight: 22
+    - name: "🟨 JS"
+      url: posts/js/
+      parent: categories
+      weight: 23
+    - name: "🐧 Linux"
+      url: posts/linux/
+      parent: categories
+      weight: 24
+    - name: "💾 MySQL"
+      url: posts/mysql/
+      parent: categories
+      weight: 25
+    - name: "🐚 Shell"
+      url: posts/shell/
+      parent: categories
+      weight: 26
+    - name: "🪟 Windows"
+      url: posts/windows/
+      parent: categories
+      weight: 27
+    - name: "🔎 搜索"
+      url: search/
       weight: 30
-    - name: WiKi
-      url: https://github.com/DeleyNomore/Blog/wiki
+    - name: "🏷️ 标签"
+      url: tags/
       weight: 40
+    - name: "📘 WiKi"
+      url: https://github.com/DeleyNomore/Blog/wiki
+      weight: 50
