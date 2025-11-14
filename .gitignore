@@ -1,0 +1,45 @@
+# Hugo 项目 .gitignore
+# 根据 Hugo + PaperMod 站点以及常见开发工具/操作系统生成
+
+# ----- Hugo 生成产物/缓存 -----
+/public/
+/resources/_gen/
+/resources/_gen_public/
+.hugo_build.lock
+hugo_stats.json
+
+# 由 Hugo 临时生成的其它文件（可根据需要调整）
+.hugo*
+
+# ----- Node / 包管理器 -----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ----- 编辑器 / IDE -----
+.vscode/
+.idea/
+
+# ----- 系统文件 -----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# ----- 环境 / 日志 -----
+.env
+.env.*
+*.log
+
+# ----- 其它常见构建产物 -----
+/dist/
+
+# ----- 主题（子模块）-----
+# 若通过 Git Submodule 安装主题：
+# 1) 仅跟踪指定子模块目录，忽略其它本地主题文件夹
+# 2) 保留 .gitmodules（必须提交），以便克隆时能恢复子模块
+/themes/*
+!/themes/PaperMod
+!.gitmodules
+
+# 说明：父仓库不会追踪子模块内部文件变更（由子模块自身仓库管理）。
+# 站点定制请放在站点层（assets/layouts/static 等），不要直接改子模块源码。
