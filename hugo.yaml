@@ -76,6 +76,7 @@ params:
 
   assets:
     disableHLJS: true
+    disableFingerprinting: true
 
   # Improve client-side search (Fuse.js)
   fuseOpts:
