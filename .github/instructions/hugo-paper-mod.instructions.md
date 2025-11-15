@@ -37,6 +37,29 @@ applyTo: '**'
 - **内容目录**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-PaperMod\content\`
 - **主题目录**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-PaperMod\themes\hugo-PaperMod\`
 
+### Github Pages 工作流示例文件
+- ** github pages hugo 模版 **: `D:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\.github\workflows\hugo.tpl`
+- ** hugo PaperMod 示例站点工作流 **: `D:\Users\SuSuSoo\Documents\Obsidian\hugo-PaperMod\.github\workflows\gh-pages.yml`
+
+## 覆盖主题模板
+
+借助 Hugo 的查找顺序，您可以覆盖主题中的任意部分。以下是一个简单示例。
+
+假设您希望调整 `list` 模板的样式。只需复制主题中的 `list` 模板文件：
+
+```shell
+your-site/themes/papermod/layouts/_defaults/list.html
+```
+
+并将其粘贴到您站点的 `layouts` 目录下：
+
+```shell
+your-site/layouts/_defaults/list.html
+```
+
+此时您便可自由修改 `list` 模板。
+当 Hugo 构建站点时，系统将优先使用您创建的 `list.html` 文件，而非主题中的原始文件。
+
 ## 注意事项
 
 - **不要修改主题源码**: `themes/PaperMod/` 是 git 子模块，应通过站点层配置实现定制
