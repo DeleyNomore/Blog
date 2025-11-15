@@ -3,9 +3,10 @@ title: "gogs 标签模板"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["DevOps"]
+tags: ["gogs", "git", "标签模板", "项目管理"]
 ---
 
-```
+```txt
 
 #007bff 分类:功能缺陷
 #007bff 分类:优化改进

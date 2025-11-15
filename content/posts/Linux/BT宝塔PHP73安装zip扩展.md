@@ -3,6 +3,7 @@ title: "BT宝塔PHP73安装zip扩展"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Linux"]
+tags: ["linux", "centos", "宝塔面板", "php", "zip扩展"]
 ---
 
 ### 1. 编译安装 CMake 3.16.2
@@ -13,7 +14,7 @@ categories: ["Linux"]
 
 ### 3. 编译安装 ext-zip 扩展
 
-```
+```bash
 
 cd /www/server/php/73/src/ext/zip/
 
@@ -29,7 +30,7 @@ make && make install
 `Installing shared extensions:www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/`
 
 ### 在 php.ini 文件末尾添加
-```
+```ini
 extension = /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/zip.so 
 ```
 

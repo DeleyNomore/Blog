@@ -3,6 +3,7 @@ title: "Centos7 + 宝塔安装Docker + WebUI管理面板(Portainer汉化)"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Docker"]
+tags: ["docker", "centos", "宝塔面板", "portainer", "安装指南"]
 ---
 
 
@@ -22,28 +23,28 @@ categories: ["Docker"]
 
 ### 命令参考:
 
-```
+```bash
 # 宝塔面板Centos安装命令
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
 ```
 
-```
+```bash
 # 宿主机创建容器目录
 mkdir -p /www/wwwroot/docker.volumes/
 mkdir -p /www/wwwroot/docker.data/portainer/public/
 ```
 
-```
+```bash
 # 下载Portainer汉化文件
 curl -L https://dl.quchao.net/Soft/Portainer-CN.zip -o /www/wwwroot/docker.data/portainer/Portainer-CN.zip
 ```
 
-```
+```bash
 # 解压Portainer汉化文件
 unzip /www/wwwroot/docker.data/portainer/Portainer-CN.zip -d /www/wwwroot/docker.data/portainer/public
 ```
 
-```
+```bash
 # 设置宿主机容器目录权限
 chown -R www:www /www/wwwroot/docker.data/portainer
 chown -R www:www /www/wwwroot/docker.volumes/
@@ -51,22 +52,22 @@ chown -R www:www /www/wwwroot/docker.volumes/
 
 *PS: 相对于Docker来说, Centos系统是它的宿主机*
 
-```
+```bash
 # 创建容器目录软连接
 ln -s -n /var/lib/docker/volumes /www/wwwroot/docker.volumes/
 ```
 
-```
+```bash
 # 创建容器存储卷
 docker volume create portainer_data
 ```
 
-```
+```bash
 # 拉取镜像
 docker pull portainer/portainer:linux-amd64-1.20.2
 ```
 
-```
+```bash
 # 创建Portainer容器
 docker run -d -p 19998:8000 -p 19999:9000 \
 --name=portainer --restart=always \

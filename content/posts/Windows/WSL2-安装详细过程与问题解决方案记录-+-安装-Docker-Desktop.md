@@ -3,6 +3,7 @@ title: "WSL2 安装详细过程与问题解决方案记录 + 安装 Docker Deskt
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Windows"]
+tags: ["windows", "wsl2", "docker", "安装指南", "问题解决"]
 ---
 
 # WSL2 安装详细过程与问题解决方案记录

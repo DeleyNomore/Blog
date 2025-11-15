@@ -3,6 +3,7 @@ title: "Centos7 编译安装 PHP grpc + protobuf 扩展 (宝塔环境)"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Linux"]
+tags: ["linux", "centos", "php", "grpc", "protobuf"]
 ---
 
 

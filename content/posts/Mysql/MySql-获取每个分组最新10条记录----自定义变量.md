@@ -3,6 +3,7 @@ title: "MySql 获取每个分组最新10条记录 自定义变量"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Mysql"]
+tags: ["mysql", "sql", "分组查询", "自定义变量", "最新记录"]
 ---
 
 ```sql

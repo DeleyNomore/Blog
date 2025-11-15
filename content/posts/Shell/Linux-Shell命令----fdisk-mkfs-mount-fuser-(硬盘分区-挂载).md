@@ -3,6 +3,7 @@ title: "Linux Shell命令 fdisk mkfs mount fuser (硬盘分区 挂载)"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Shell"]
+tags: ["linux", "shell", "fdisk", "mkfs", "mount", "硬盘分区"]
 ---
 
 <br>
