@@ -6,6 +6,11 @@ applyTo: '**'
 
 ## 官方文档链接
 
+## 本地文档资料库
+- [Hugo 官方文档 (离线版)](file:///F:/HostWork/Github.Workspace/GO/hugo/docs) - 包含 Hugo 官方文档的本地离线版本
+- [PaperMod 主题文档 (离线版)](file:///D:/Users/SuSuSoo/Documents/Obsidian/hugo-PaperMod.wiki) - 包含 PaperMod 主题文档的本地离线版本
+- [Hugo 主题示例站点 (离线版)](file:///D:/Users/SuSuSoo/Documents/Obsidian/hugo-PaperMod) - 包含 Hugo PaperMod 主题的示例站点源码
+
 ### PaperMod Wiki
 - [PaperMod Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features) - PaperMod 功能特性文档
 - [PaperMod FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs) - 常见问题解答
