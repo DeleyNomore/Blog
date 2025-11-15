@@ -4,9 +4,20 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+    # Ignore changes to these paths
+    paths-ignore:
+      - "images/**"
+      - "LICENSE"
+      - "README.md"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    # manual run
+    inputs:
+      hugoVersion:
+        description: "Hugo Version"
+        required: false
+        default: "0.152.2"
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -30,7 +41,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.146.0
+      HUGO_VERSION: 0.152.2
     steps:
       - name: Install Hugo CLI
         run: |
@@ -45,6 +56,10 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Get Theme
+        run: git submodule update --init --recursive
+      # - name: Update theme to Latest commit
+      #   run: git submodule update --remote --merge
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
@@ -53,7 +68,7 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
-            --minify \
+            --buildDrafts --gc --minify \
             --destination public \
             --baseURL ${{ steps.pages.outputs.base_url }}/
       - name: Upload artifact
