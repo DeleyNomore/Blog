@@ -54,7 +54,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "https://deleynomore.github.io/Blog/"
+            --baseURL "https://deleynomore.github.io/Blog"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
