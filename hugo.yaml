@@ -1,4 +1,4 @@
-baseURL: "/" # 通过 CI 在不同环境传入 --baseURL 覆盖（GitHub Pages/Netlify）
+baseURL: "/"
 languageCode: zh-cn
 title: DeleyNomore
 theme: ["PaperMod"]
@@ -76,7 +76,6 @@ params:
 
   assets:
     disableHLJS: true
-    disableFingerprinting: true
 
   # Improve client-side search (Fuse.js)
   fuseOpts:
@@ -101,7 +100,7 @@ services:
   x:
     disableInlineCSS: true
 
-relativeURLs: true
+relativeURLs: false
 canonifyURLs: false
 
 menu:
