@@ -1,9 +1,9 @@
 ﻿---
-title: "BT宝塔PHP73安装zip扩展"
+title: "BT 宝塔 PHP73 安装 zip 扩展"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Linux"]
-tags: ["linux", "centos", "宝塔面板", "php", "zip扩展"]
+tags: ["linux", "centos", "宝塔面板", "php", "zip 扩展"]
 ---
 
 ### 1. 编译安装 CMake 3.16.2

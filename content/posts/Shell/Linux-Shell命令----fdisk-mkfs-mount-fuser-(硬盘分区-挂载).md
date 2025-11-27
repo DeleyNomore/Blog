@@ -1,5 +1,5 @@
 ﻿---
-title: "Linux Shell命令 fdisk mkfs mount fuser (硬盘分区 挂载)"
+title: "Linux Shell 命令 fdisk mkfs mount fuser (硬盘分区 挂载)"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Shell"]
@@ -157,56 +157,56 @@ mount [-fnrsvw] [-t vfstype] [-o options] device dir
 
 ## 扩展笔记 : 
 
-> Linux下第一块磁盘标记为 `/dev/sda`
+> Linux 下第一块磁盘标记为 `/dev/sda`
 >
-> `ls /dev/` 列出所有设备(最原始的查找方法)
+> `ls /dev/` 列出所有设备 (最原始的查找方法)
 > `ls /dev/sda*` 或 `ls /dev | grep sda` 手动列出所有分区
-> `df -hT` 查看已挂载的磁盘信息, 包含分区类型, 空间状态, 挂载点信息等
-> `lsblk` 列出所有(存储)块设备, 包括未挂载磁盘
+> `df -hT` 查看已挂载的磁盘信息，包含分区类型，空间状态，挂载点信息等
+> `lsblk` 列出所有 (存储) 块设备，包括未挂载磁盘
 > `cfdisk` 傻瓜式磁盘分区
 >
-> `fdisk -l` 查看所有磁盘信息(包括未挂载磁盘)
-> `fdisk /dev/sda` 或 `cfdisk /dev/sda` 对第一块磁盘进行分区操作 (大于2T时用`parted /dev/sda`)
+> `fdisk -l` 查看所有磁盘信息 (包括未挂载磁盘)
+> `fdisk /dev/sda` 或 `cfdisk /dev/sda` 对第一块磁盘进行分区操作 (大于 2T 时用`parted /dev/sda`)
 > `fdisk /dev/sda` > `p` 查看当前硬盘信息
 > `fdisk /dev/sda` > `F` 查看当前硬盘未分配空间
-> `fdisk /dev/sda` > `n` > `p` 新建主分区(根据情况操作)
-> `fdisk /dev/sda` > `n` > `e` 新建逻辑分区(根据情况操作)
-> `fdisk /dev/sda` > `d` 删除分区(选择要删除的分区号)
->  新建分区时, 用 `+100M` 或 `+100K` 指令, 可以更方便的设置分区大小, `M` 为单位, `100`为大小
->  进行分区操作后, 输入`w` 保存分区更改并退出 (写入分区表)
+> `fdisk /dev/sda` > `n` > `p` 新建主分区 (根据情况操作)
+> `fdisk /dev/sda` > `n` > `e` 新建逻辑分区 (根据情况操作)
+> `fdisk /dev/sda` > `d` 删除分区 (选择要删除的分区号)
+>  新建分区时，用 `+100M` 或 `+100K` 指令，可以更方便的设置分区大小，`M` 为单位，`100`为大小
+>  进行分区操作后，输入`w` 保存分区更改并退出 (写入分区表)
 > 
-> `mkfs.ext4 /dev/sda1` 格式化分区(创建ext4格式文件系统)
-> `mkfs.xfs /dev/sda1` 格式化分区(创建xfs格式文件系统)
-> `mkfs -t ext4 -L 'testdisk' /dev/sda1` 创建ext4文件系统并指定卷标为 *testdisk*
+> `mkfs.ext4 /dev/sda1` 格式化分区 (创建 ext4 格式文件系统)
+> `mkfs.xfs /dev/sda1` 格式化分区 (创建 xfs 格式文件系统)
+> `mkfs -t ext4 -L 'testdisk' /dev/sda1` 创建 ext4 文件系统并指定卷标为 *testdisk*
 > `partprobe /dev/sda` 不重启重读分区表
 > 
 > `mount DEVICE MOUNT_POINT` 挂载设备
-> `umount MOUNT_POINT` 或 `umount DEVICE` 卸载设备(取消挂载)
-> ~MOUNT_POINT~ 指定挂载目录路径(挂载点) 
-> ~DEVICE~ 指定要挂载的设备, 例如 `/dev/sda1`
+> `umount MOUNT_POINT` 或 `umount DEVICE` 卸载设备 (取消挂载)
+> ~MOUNT_POINT~ 指定挂载目录路径 (挂载点) 
+> ~DEVICE~ 指定要挂载的设备，例如 `/dev/sda1`
 > 
 > 挂载点 MOUNT_POINT :
-> * 应事先存在(建议使用空目录)
+> * 应事先存在 (建议使用空目录)
 > * 挂载点下原有的文件将会被隐藏
 > * 应该使用未被或不会被其它进程使用到的目录 (`fuser -v MOUNT_POINT` 查看正在访问指定文件系统的进程)
-> * 进程正在使用中的设备无法被卸载 (`fuser -km MOUNT_POINT` 终止所有在正访问指定的文件系统的进程,慎用)
+> * 进程正在使用中的设备无法被卸载 (`fuser -km MOUNT_POINT` 终止所有在正访问指定的文件系统的进程，慎用)
 >
 > 挂载设备 DEVICE :
 > * 设备文件：例如 `/dev/sda1`
-> * 卷标: `-L 'LABEL'`, 例如 `-L 'MYDATA'`
-> * UUID唯一标识符: `-U 'UUID'`, 例如 `-U '0c50523c-43f1-45e7-85c0-a126711d406e'`
+> * 卷标：`-L 'LABEL'`, 例如 `-L 'MYDATA'`
+> * UUID 唯一标识符：`-U 'UUID'`, 例如 `-U '0c50523c-43f1-45e7-85c0-a126711d406e'`
 > * 伪文件系统名称：`proc`, `sysfs`, `devtmpfs`, `configfs`
 >
 > `cat /etc/mtab` 查看当前系统已挂载的所有设备
-> `mkdir  /mnt/sda1_newdisk` 创建挂载目录(`sda1_newdisk`目录名, `/mnt`专门用于挂载的)
-> `mkdir /home/sda1` 你也可以创建其他路径的目录, 例如`/home`下边
-> `mount /dev/sda1 /mnt/sda1_newdisk` 挂载到 `/mnt` (临时挂载, 重启失效)
-> `mount /dev/sda1 /home/sda1` 挂载到 `/home` (临时挂载, 重启失效)
-> `echo "/dev/sda1     /home/sda1     ext4    defaults    0 0" >> /etc/fstab` 将信息写入fstab, 设置系统自动挂载（永久挂载）
+> `mkdir  /mnt/sda1_newdisk` 创建挂载目录 (`sda1_newdisk`目录名，`/mnt`专门用于挂载的)
+> `mkdir /home/sda1` 你也可以创建其他路径的目录，例如`/home`下边
+> `mount /dev/sda1 /mnt/sda1_newdisk` 挂载到 `/mnt` (临时挂载，重启失效)
+> `mount /dev/sda1 /home/sda1` 挂载到 `/home` (临时挂载，重启失效)
+> `echo "/dev/sda1     /home/sda1     ext4    defaults    0 0" >> /etc/fstab` 将信息写入 fstab, 设置系统自动挂载（永久挂载）
 > `blkid` 或 `blkid /dev/sda1` 查看文件系统类型/卷标/UUID
 > `echo "UUID=b9c9a454-f619-4759-ba19-4b4827929bd0     /home/sda1     ext4    defaults    0 0" >> /etc/fstab ` 通过卷标自动挂载
 > `vim /etc/fstab` 手动编辑自动挂载配置
-> `mount -a` 将 /etc/fstab 中定义的所有文件系统挂上, 并立即生效
+> `mount -a` 将 /etc/fstab 中定义的所有文件系统挂上，并立即生效
 > `fuser -v /home/sda1` 查看正在访问`/home/sda1`目录的进程
 > `fuser -km /home/sda1` 终止所有在正在访问`/home/sda1`目录的进程
 > `umount /dev/sda1` 或 `umount  /home/sda1` 取消挂载
@@ -214,19 +214,19 @@ mount [-fnrsvw] [-t vfstype] [-o options] device dir
 
 <br>
 
-### 文章链接: 
+### 文章链接：
 
 ---
-* MBR磁盘分区表只能有四个分区？[跳转 >>](https://blog.csdn.net/White_Idiot/article/details/80088115)
+* MBR 磁盘分区表只能有四个分区？[跳转 >>](https://blog.csdn.net/White_Idiot/article/details/80088115)
 * 硬盘分区表扫盲：MBR 和 GPT 表，你在用哪一样？[跳转 >>](https://www.ithome.com/html/win8/58192.htm)
-* Linux主分区，扩展分区，逻辑分区的联系和区别 [跳转 >>](https://www.cnblogs.com/w-wfy/p/8870598.html)
-* linux磁盘分区fdisk命令详解 [跳转 >>](https://blog.51cto.com/linux008/548711)
+* Linux 主分区，扩展分区，逻辑分区的联系和区别 [跳转 >>](https://www.cnblogs.com/w-wfy/p/8870598.html)
+* linux 磁盘分区 fdisk 命令详解 [跳转 >>](https://blog.51cto.com/linux008/548711)
 * fdisk：Linux 下管理磁盘分区的利器 [跳转 >>](https://linux.cn/article-10508-1.html)
-* Linux下使用fdisk扩大分区容量（不丢失数据）[跳转 >>](https://blog.51cto.com/sandshell/2119523)
+* Linux 下使用 fdisk 扩大分区容量（不丢失数据）[跳转 >>](https://blog.51cto.com/sandshell/2119523)
 * 通过 fdisk 对磁盘分区扩容 [跳转 >>](https://hughsite.com/post/linux-fdisk-extend-partition.html)
-* 大硬盘（大于2T）分区方法 [跳转 >>](https://www.cnblogs.com/jack34/p/8965114.html)
-* Linux服务器升级硬盘以后通过parted进行磁盘分区扩容操作流程 [跳转 >>](http://www.21yunwei.com/archives/1442)
-* linux里挂载（mount）和取消挂载（umount）命令的使用 [跳转 >>](https://blog.csdn.net/xiyangyang8/article/details/49725039)
+* 大硬盘（大于 2T）分区方法 [跳转 >>](https://www.cnblogs.com/jack34/p/8965114.html)
+* Linux 服务器升级硬盘以后通过 parted 进行磁盘分区扩容操作流程 [跳转 >>](http://www.21yunwei.com/archives/1442)
+* linux 里挂载（mount）和取消挂载（umount）命令的使用 [跳转 >>](https://blog.csdn.net/xiyangyang8/article/details/49725039)
 * Linux mount 命令进阶 [跳转 >>](https://www.cnblogs.com/sparkdev/p/9045563.html)
 
 

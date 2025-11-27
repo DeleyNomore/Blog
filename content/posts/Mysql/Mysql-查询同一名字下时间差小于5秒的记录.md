@@ -1,5 +1,5 @@
 ﻿---
-title: "Mysql 查询同一名字下时间差小于5秒的记录"
+title: "Mysql 查询同一名字下时间差小于 5 秒的记录"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Mysql"]
@@ -8,9 +8,9 @@ tags: ["mysql", "sql", "查询优化", "时间差查询", "分组查询"]
 
 ### 题目如下
 
-![题目](https://upload-images.jianshu.io/upload_images/24232378-e35d999d8b446fa2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![题目](![alt text](images\202511Th_102111.png))
 
-#### SQL数据样本
+#### SQL 数据样本
 
 ```sql
 
@@ -40,7 +40,7 @@ INSERT INTO `user` VALUES (105, '李四', '2021-04-08 20:14:48');
 
 ```
 
-#### Mysql 5.7 解题参考:
+#### Mysql 5.7 解题参考：
 
 ```sql
 SELECT
@@ -81,7 +81,7 @@ WHERE
 
 ```
 
-#### Mysql 8.0 解题参考:
+#### Mysql 8.0 解题参考：
 
 ```sql
 SELECT NAME , `time`
@@ -100,7 +100,7 @@ WHERE pre_delta <= 5 OR last_delta <= 5
 
 #### 原理
 
-![原理图](https://upload-images.jianshu.io/upload_images/24232378-f86c841226c8a1f5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![原理图](images/202511Th_102332.png)
 
 
 

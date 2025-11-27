@@ -1,5 +1,5 @@
 ﻿---
-title: "PHP Composer 包完全开发指南 + 多包嵌套独立Git版本管理"
+title: "PHP Composer 包完全开发指南 + 多包嵌套独立 Git 版本管理"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["DevOps"]
@@ -1073,7 +1073,7 @@ Composer 的 path 存储库功能通过以下机制工作：
 2. **使用 Composer 缓存**：确保启用 Composer 缓存以加快依赖解析速度：
 
    ```bash
-   composer config cache-files-ttl 2592000  # 30天缓存
+   composer config cache-files-ttl 2592000  # 30 天缓存
    ```
 
 3. **优化自动加载**：在开发环境中定期运行优化命令：
@@ -1338,7 +1338,7 @@ Composer 的 path 存储库功能通过以下机制工作：
    - 进入你的 GitHub 仓库
    - 点击 "Settings" > "Webhooks" > "Add webhook"
    - 设置 Payload URL: `https://packagist.org/api/github?username=your-packagist-username&apiToken=your-api-token`
-   - 内容类型选择: `application/json`
+   - 内容类型选择：`application/json`
    - 选择 "Just the push event"
    - 勾选 "Active"
    - 点击 "Add webhook"
@@ -1510,16 +1510,16 @@ Composer 的 path 存储库功能通过以下机制工作：
    ## 开发环境设置
    1. Fork 本仓库
    2. 克隆您的 Fork: `git clone https://github.com/YOUR-USERNAME/my-utils-package.git`
-   3. 安装依赖: `composer install`
+   3. 安装依赖：`composer install`
 
    ## 代码风格
-   本项目遵循 PSR-12 编码规范。请在提交前运行:
+   本项目遵循 PSR-12 编码规范。请在提交前运行：
    ```
    composer cs-check
    ```
 
    ## 测试
-   添加或修改功能时，请确保添加相应的测试:
+   添加或修改功能时，请确保添加相应的测试：
    ```
    composer test
    ```
