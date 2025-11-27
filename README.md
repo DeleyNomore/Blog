@@ -76,3 +76,12 @@
 - **本地预览**: 运行 `hugo server -D` 启动本地开发服务器
 - **构建站点**: 运行 `hugo --minify` 生成优化后的静态站点
 - **部署**: 通过 GitHub Actions 或 Netlify 自动部署到线上环境
+
+## 已部署站点
+
+以下为本博客的已部署站点链接：
+
+- [Netlify 部署](https://deleynomore.netlify.app)
+- [Cloudflare Pages 部署](https://deleynomore.pages.dev)
+- [GitHub Pages 部署](https://deleynomore.github.io/Blog)
+- [Vercel 部署](https://deleynomore.vercel.app)
