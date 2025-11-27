@@ -2,67 +2,55 @@
 applyTo: '**'
 ---
 
-# Hugo PaperMod 参考资料汇总
+# Hugo PaperMod 项目指令文档
 
-## 官方文档链接
+## 项目概述
+- 项目：使用 Hugo + PaperMod 主题的静态博客
+- 仓库：DeleyNomore/Blog
+- 主题：PaperMod (git 子模块)
+- 语言：中文 (zh-cn)
 
-## 本地文档资料库
-- [Hugo 官方文档 (离线版)](file:///F:/HostWork/Github.Workspace/GO/hugo/docs) - 包含 Hugo 官方文档的本地离线版本
-- [PaperMod 主题文档 (离线版)](file:///D:/Users/SuSuSoo/Documents/Obsidian/hugo-PaperMod.wiki) - 包含 PaperMod 主题文档的本地离线版本
-- [Hugo 主题示例站点 (离线版)](file:///D:/Users/SuSuSoo/Documents/Obsidian/hugo-PaperMod) - 包含 Hugo PaperMod 主题的示例站点源码
+## 核心配置文件路径
+- **站点配置**: `hugo.yaml`
+- **文章目录**: `content/posts/`
+- **主题目录**: `themes/PaperMod/`
+- **自定义样式**: `assets/css/extended/custom.css`
+- **归档页面**: `content/archives.md`
+- **搜索页面**: `content/search.md`
+- **部署工作流**: `.github/workflows/hugo-pages.yml`
+- **Netlify 配置**: `netlify.toml`
 
-### PaperMod Wiki
-- [PaperMod Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features) - PaperMod 功能特性文档
-- [PaperMod FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs) - 常见问题解答
-- [PaperMod Installation](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation) - 安装指南
-- [PaperMod Variables](https://github.com/adityatelange/hugo-PaperMod/wiki/Variables) - 配置变量说明
+## 关键配置要点
+- **Hugo 版本**: v0.152.2 (extended) - 项目当前使用版本，高于 PaperMod 最低要求 v0.146.0
+- **主题配置**: `theme: ["PaperMod"]`
+- **基础 URL**: `baseURL: "/"` (相对链接)
+- **语言代码**: `languageCode: zh-cn`
+- **菜单配置**: 已配置文章/分类/搜索/标签/WiKi 导航
+- **搜索功能**: 依赖 `outputs.home` 包含 `JSON` 格式
+- **Front Matter**: categories 使用数组格式 `["分类名"]`
 
-### Hugo 官方文档
-- [Hugo Taxonomies](https://gohugo.io/content-management/taxonomies/) - Hugo 分类系统文档
-- [Hugo Menus](https://gohugo.io/content-management/menus/) - Hugo 菜单系统文档
-- [Hugo Configuration](https://gohugo.io/getting-started/configuration/) - Hugo 配置文档
+## 开发工作流
+- **新建文章**: `hugo new posts/my-post.md` (使用草稿模式)
+- **本地预览**: `hugo server -D` (包含草稿)
+- **构建站点**: `hugo -D` 或 `hugo --minify`
+- **清理输出**: `Remove-Item -Recurse -Force public`
 
-## 本地项目文件路径
+## 部署流程
+- **GitHub Pages**: 推送至 `main` 分支自动触发部署，使用项目当前的 Hugo 版本 v0.152.2
+- **Netlify**: 自动部署，为确保环境一致性，建议使用与本地相同的 Hugo 版本
 
-### 当前项目 (hugo-blog)
-- **配置文件**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\hugo.yaml`
-- **文章目录**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\content\posts\`
-- **主题目录**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\themes\PaperMod\`
-- **自定义样式**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\assets\css\extended\custom.css`
-- **归档页面**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\content\archives.md`
-- **搜索页面**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\content\search.md`
+## 重要约定和规则
+- **禁止修改**: 不得直接修改 `themes/PaperMod/` 源码
+- **定制方式**: 通过覆盖模板或站点层配置实现定制
+- **文件路径**: 菜单链接使用相对路径如 `/categories/`
+- **输出目录**: 不提交 `public/` 目录，由 CI/CD 生成
+- **Front Matter**: tags 使用数组格式 `tags: [tag1, tag2]`
 
-### 示例站点 (hugo-PaperMod)
-- **配置文件**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-PaperMod\config.yml`
-- **内容目录**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-PaperMod\content\`
-- **主题目录**: `d:\Users\SuSuSoo\Documents\Obsidian\hugo-PaperMod\themes\hugo-PaperMod\`
+## 模板覆盖规则
+- 要覆盖主题模板，复制 `themes/papermod/layouts/` 下的文件到 `layouts/` 对应目录
+- Hugo 会优先使用站点层的模板文件
 
-### Github Pages 工作流示例文件
-- ** github pages hugo 模版 **: `D:\Users\SuSuSoo\Documents\Obsidian\hugo-blog\.github\workflows\hugo.tpl`
-- ** hugo PaperMod 示例站点工作流 **: `D:\Users\SuSuSoo\Documents\Obsidian\hugo-PaperMod\.github\workflows\gh-pages.yml`
-
-## 覆盖主题模板
-
-借助 Hugo 的查找顺序，您可以覆盖主题中的任意部分。以下是一个简单示例。
-
-假设您希望调整 `list` 模板的样式。只需复制主题中的 `list` 模板文件：
-
-```shell
-your-site/themes/papermod/layouts/_defaults/list.html
-```
-
-并将其粘贴到您站点的 `layouts` 目录下：
-
-```shell
-your-site/layouts/_defaults/list.html
-```
-
-此时您便可自由修改 `list` 模板。
-当 Hugo 构建站点时，系统将优先使用您创建的 `list.html` 文件，而非主题中的原始文件。
-
-## 注意事项
-
-- **不要修改主题源码**: `themes/PaperMod/` 是 git 子模块，应通过站点层配置实现定制
-- **Hugo 版本要求**: PaperMod 要求 Hugo >= v0.146.0
-- **Front Matter 格式**: categories 应为数组格式 `["分类名"]`
-- **菜单链接**: 使用相对路径 `/categories/` 而不是绝对路径
+## 故障排除
+- **菜单不显示**: 检查 `menu.main` 配置和 URL 正确性
+- **搜索空白**: 确认 `content/search.md` 存在且 `outputs.home` 包含 JSON
+- **标签无内容**: 检查文章是否包含 `tags` 字段，草稿需 `-D` 参数预览

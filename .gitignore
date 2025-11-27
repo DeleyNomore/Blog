@@ -19,6 +19,9 @@ npm-debug.log*
 yarn-error.log*
 
 # ----- 编辑器 / IDE -----
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
 .vscode/
 .idea/
 
