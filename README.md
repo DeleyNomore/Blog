@@ -9,35 +9,31 @@
 ```
 📂 .
 ├── 📂 archetypes              # 文章模板目录
-├── 📂 assets                  # 静态资源目录（CSS、JS等）
-│   └── 📂 css/extended        # 自定义样式扩展
-├── 📂 content                 # 内容目录（核心）
-│   ├── 📄 archives.md         # 归档页面配置
-│   ├── 📄 search.md           # 搜索页面配置
-│   └── 📂 posts               # 文章内容目录（按分类组织）
-│       ├── 📂 DevOps
-│       ├── 📂 Docker
-│       ├── 📂 Js
-│       ├── 📂 Linux
-│       ├── 📂 Mysql
-│       ├── 📂 Shell
-│       └── 📂 Windows
+│   └──  default.md           # 默认文章模板
+├──  assets                  # 静态资源目录（CSS、JS等）
+│   └──  css                 # CSS 样式文件
+├──  content                 # 内容目录（核心）
+│   ├──  archives.md         # 归档页面配置
+│   ├── 📂 posts               # 文章内容目录（按分类组织）
+│   └──  search.md           # 搜索页面配置
 ├── 📂 data                    # 数据文件目录（用于动态内容）
-├── 📄 hugo.yaml               # Hugo 站点主配置文件
+├──  hugo.yaml               # Hugo 站点主配置文件
 ├── 📂 i18n                    # 国际化配置目录
 ├── 📂 layouts                 # 自定义布局模板
 │   ├── 📂 _default            # 默认布局
 │   └── 📂 partials            # 页面组件片段
-├── 📄 LICENSE                 # 开源许可证
-├── 📄 netlify.toml            # Netlify 部署配置
-├── 📂 public                  # 生成的静态站点（构建产物，通常不提交到版本控制）
-├── 📄 README.md               # 项目说明文档
-├── 📂 scripts                 # 辅助脚本目录
-│   └── 📄 migrate-blog.ps1    # 博客内容迁移脚本
-├── 📂 static                  # 静态文件目录（直接复制到 public）
+├──  LICENSE                 # 开源许可证
+├──  netlify.toml            # Netlify 部署配置
+├──  public                  # 生成的静态站点（构建产物，通常不提交到版本控制）
+├──  README.md               # 项目说明文档
+├──  scripts                 # 辅助脚本目录
+│   └──  migrate-blog.ps1    # 博客内容迁移脚本
+├──  static                  # 静态文件目录（直接复制到 public）
+│   └── 📂 posts              # 静态文章资源
 └── 📂 themes                  # 主题目录
     └── 📂 PaperMod            # PaperMod 主题（作为 git 子模块）
 ```
+
 
 ## 目录详解
 
