@@ -8,7 +8,7 @@ tags: ["mysql", "sql", "查询优化", "时间差查询", "分组查询"]
 
 ### 题目如下
 
-![题目](![alt text](images\202511Th_102111.png))
+![题目](images/202511Th_102111.png)
 
 #### SQL 数据样本
 
@@ -101,6 +101,3 @@ WHERE pre_delta <= 5 OR last_delta <= 5
 #### 原理
 
 ![原理图](images/202511Th_102332.png)
-
-
-

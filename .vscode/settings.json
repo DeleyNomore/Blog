@@ -1,6 +1,6 @@
 {
   "MarkdownPaste.path": "${fileDirname}/images",
-  "MarkdownPaste.nameBase": "${datetime|yyyyMMdd_HHmmss}",
+  "MarkdownPaste.nameBase": "${datetime|yyyyMMDD_HHmmss}",
   "MarkdownPaste.namePrefix": "",
   "MarkdownPaste.nameSuffix": "",
   "MarkdownPaste.silence": false,
@@ -8,24 +8,19 @@
   "MarkdownPaste.encodePath": "encodeSpaceOnly",
   "MarkdownPaste.imageRules": [
     {
-      "match": "content/posts/.*\\\\.md$",
-      "targetPath": "${fileDirname}/images/${datetime|yyyyMMdd_HHmmss}",
-      "linkPattern": "![${altText|图片}](images/{{imageFilePath}})"
-    },
-    {
-      "match": "content/posts/.*/index\\.md$",
-      "targetPath": "${fileDirname}/${datetime|yyyyMMdd_HHmmss}",
-      "linkPattern": "![${altText|图片}]({{imageFilePath}})"
-    },
-    {
-      "match": "content/.*",
-      "targetPath": "${fileDirname}/images/${datetime|yyyyMMdd_HHmmss}",
-      "linkPattern": "![${altText|图片}]({{imageFilePath}})"
+      "match": ".*",
+      "targetPath": "${fileDirname}/images/${datetime|yyyyMMDD_HHmmss}.png",
+      "linkPattern": "![img](${imageFilePath})"
     }
   ],
   "MarkdownPaste.rules": [
     {
-      "regex": "^(?:https?://)?(?:(?:(?:www\\.)?youtube\\.com(?:/(?:(?:watch\\?.*?v=([^&\\s]+).*))|))?))",
+      "regex": "!\\[\\]\\((images/[^\\s\\)]+)\\)",
+      "options": "g",
+      "replace": "![img]($1)"
+    },
+    {
+      "regex": "^(?:https?://)?(?:www\\.)?youtube\\.com/(?:watch\\?.*?v=([^&\\s]+)|embed/([^&\\s]+)).*$",
       "options": "g",
       "replace": "[![](https://img.youtube.com/vi/$1/0.jpg)](https://www.youtube.com/watch?v=$1)"
     },
@@ -38,4 +33,15 @@
   "MarkdownPaste.applyAllRules": true,
   "MarkdownPaste.enableHtmlConverter": true,
   "MarkdownPaste.enableRulesForHtml": true,
+  "MarkdownPaste.turndownOptions": {
+    "headingStyle": "setext",
+    "codeBlockStyle": "fenced",
+    "emDelimiter": "*",
+    "strongDelimiter": "**",
+    "bulletListMarker": "-",
+    "hr": "-",
+    "keepHTML": false,
+    "escapeHtml": false
+  },
+  "MarkdownPaste.enableAI": false
 }

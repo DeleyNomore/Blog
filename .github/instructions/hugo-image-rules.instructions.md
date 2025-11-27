@@ -11,7 +11,7 @@ applyTo: '**'
 - **全站公共图片**：保存到 `static/images/` 目录
 
 ## 命名规范
-- **自动生成**：使用时间戳格式 `${datetime|yyyyMMdd_HHmmss}` (如：`20251127120530.png`)
+- **自动生成**：使用时间戳格式 `${datetime|yyyyMMdd_HHmmss}` (如：`20251127_120530.png`)
 - **手动命名**：公共图片使用语义名称 (如：`logo.png`, `icon-social-twitter.svg`)
 
 ## 引用方式

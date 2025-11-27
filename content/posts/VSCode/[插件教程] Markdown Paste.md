@@ -79,7 +79,6 @@
 
 `，它将返回 ""。你也可以设置默认文本，例如：`${selectedText|默认文本}`，如果选中的文本包含非法字符或选中文本为空，它将返回默认文本。
   - `${uuid}` - 一个随机的 UUID v4
-hugo-image-save.instructions.md
 - `MarkdownPaste.path`
 
   图片将保存的文件夹路径。支持绝对路径、相对路径和预定义变量。
@@ -112,7 +111,7 @@ hugo-image-save.instructions.md
 
 - `MarkdownPaste.enableImgTag`
 
-  启用/禁用使用带有宽度和高度的 HTML img 标签粘贴图片。如果启用此选项，你可以在文件名确认输入框中使用 `<filepath>[?width,height]` 输入宽度和高度。例如输入 `bcilename.png?200,100`，然后会插入 `<img src='bcilename.png' width='200' height='100' />`。
+  启用/禁用使用带有宽度和高度的 HTML img 标签粘贴图片。如果启用此选项，你可以在文件名确认输入框中使用 `<filepath>[?width,height]` 输入宽度和高度。例如输入 `bcilename.png?200,100`，然后会插入 `<img src='bcilename.png' width='200' height='100' />`。
 
   默认值是 `true`。
 

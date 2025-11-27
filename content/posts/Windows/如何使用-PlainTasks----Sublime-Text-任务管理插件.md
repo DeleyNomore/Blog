@@ -13,7 +13,7 @@ tags: ["windows", "sublime text", "plaintasks", "任务管理", "插件"]
 要在 Sublime Text 中安装 PlainTasks 插件，可以按照以下步骤进行：
 
 1. **安装 Package Control**：
-  根据官方文档安装, 文档地址 https://packagecontrol.io/installation
+  根据官方文档安装，文档地址 https://packagecontrol.io/installation
   如果已经安装请跳过
 
 2. **安装 PlainTasks**：
@@ -26,7 +26,7 @@ tags: ["windows", "sublime text", "plaintasks", "任务管理", "插件"]
    - 开始使用 PlainTasks 的功能来管理你的任务列表。
 
 ## PlainTasks 使用教程
-安装好PlainTasks插件后, 将以下内容另存为 Tutorial-CN.todo 在 Sublime Text 里打开阅读
+安装好 PlainTasks 插件后，将以下内容另存为 Tutorial-CN.todo 在 Sublime Text 里打开阅读
 
 ```todo
 如何使用PlainTasks:

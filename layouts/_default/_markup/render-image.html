@@ -1,0 +1,35 @@
+{{- $u := urls.Parse .Destination -}}
+{{- $src := $u.String -}}
+{{- if not $u.IsAbs -}}
+  {{- $path := strings.TrimPrefix "./" $u.Path -}}
+  
+  {{- /* First, try to get from current page's resources */ -}}
+  {{- with .Page.Resources.GetMatch $path -}}
+    {{- $src = .RelPermalink -}}
+  {{- else -}}
+    {{- /* If not found in page resources, check if it's a relative path to sibling images directory */ -}}
+    {{- if eq (path.Dir $path) "images" -}}
+      {{- /* For paths like "images/filename.png", convert to "/posts/section/images/filename.png" */ -}}
+      {{- $pageDir := path.Dir .Page.File.Dir -}}
+      {{- $section := path.Base $pageDir -}}
+      {{- $staticImagePath := printf "/posts/%s/%s" $section $path -}}
+      {{- $src = $staticImagePath -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with $u.RawQuery -}}
+    {{- $src = printf "%s?%s" $src . -}}
+  {{- end -}}
+  {{- with $u.Fragment -}}
+    {{- $src = printf "%s#%s" $src . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $attributes := merge .Attributes (dict "alt" .Text "src" $src "title" (.Title | transform.HTMLEscape) "loading" "lazy") -}}
+<img
+  {{- range $k, $v := $attributes -}}
+    {{- if $v -}}
+      {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
+    {{- end -}}
+  {{- end -}}>
+{{- /**/ -}}
