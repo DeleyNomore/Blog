@@ -9,11 +9,12 @@
   {{- else -}}
     {{- /* If not found in page resources, check if it's a relative path to sibling images directory */ -}}
     {{- if eq (path.Dir $path) "images" -}}
-      {{- /* For paths like "images/filename.png", convert to "/posts/section/images/filename.png" */ -}}
-      {{- $pageDir := path.Dir .Page.File.Dir -}}
-      {{- $section := path.Base $pageDir -}}
-      {{- $staticImagePath := printf "/posts/%s/%s" $section $path -}}
-      {{- $src = $staticImagePath -}}
+      {{- /* For paths like "images/filename.png", use relative path to support subdirectory deployment */ -}}
+      {{- $relativeImagePath := printf "../images/%s" (path.Base $path) -}}
+      {{- $src = $relativeImagePath -}}
+    {{- else -}}
+      {{- /* For other relative paths, keep them as-is to maintain relative positioning */ -}}
+      {{- $src = $path -}}
     {{- end -}}
   {{- end -}}
 
