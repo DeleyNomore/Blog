@@ -3,6 +3,7 @@ languageCode: zh-cn
 title: DeleyNomore
 theme: ["PaperMod"]
 
+disablePathToLower: true
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
