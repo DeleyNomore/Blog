@@ -1,10 +1,42 @@
+---
+title: "Markdown Paste 插件使用教程"
+summary: "智能 Markdown 粘贴插件使用指南，支持 Mac/Windows/Linux 系统。"
+date: 2025-11-28T00:00:00+08:00
+lastmod: 2025-11-28T00:00:00+08:00
+draft: false
+author: ""
+authorLink: ""
+description: "详细介绍 Markdown Paste 插件的功能特性及使用方法，支持跨平台使用。"
+license: ""
+images: []
+categories:
+  - "VSCode 插件"
+  - "Markdown 工具"
+tags:
+  - "VSCode"
+  - "Markdown"
+  - "插件教程"
+  - "效率工具"
+  - "跨平台"
+keywords:
+  - "VSCode 插件"
+  - "Markdown Paste"
+  - "智能粘贴"
+  - "图片上传"
+  - "文本转换"
+menu:
+  main:
+    parent: ""
+    weight: 500
+---
+
 # Markdown Paste
 
 智能 Markdown 粘贴。
 
 **支持 Mac/Windows/Linux！**。
 
-![Markdown paste demo](./res/images/markdown_paste_demo_min.gif)
+![Markdown paste demo](images/markdown_paste_demo_min.gif)
 
 ## 系统要求
 
@@ -22,12 +54,12 @@
   - 如果粘贴的是文本，它会使用自定义正则表达式测试文本，并用正则表达式替换匹配的内容。
   - 如果粘贴的是包含 HTML 标签的文本，它会尝试将 HTML 内容转换为 Markdown。
   - 如果粘贴的是富文本，它会尝试将富文本转换为 Markdown。
-    ![](./res/images/markdown-paste-rich-text-html-table.gif)
+    ![](images/markdown-paste-rich-text-html-table.gif)
 
 - 下载文件
 
   使用 `Markdown Download` 命令（Linux 或 Windows：`Ctrl+Alt+D`，Mac：`Cmd+Alt+D`）下载文件并将链接代码插入到 Markdown 中。
-  ![](./res/images/markdown-paste-download-gif-demo.gif)
+  ![](images/markdown-paste-download-gif-demo.gif)
 
 - 粘贴代码
 
@@ -49,13 +81,13 @@
 
   按 'Ctrl+Alt+\' 或在 vscode 命令面板中输入 "Insert latex math symbol"，然后输入 LaTeX 符号名称并选择你想要的符号。
 
-  ![](res/images/insert-math-symbol-2018-08-12-18-15-12.png)
+  ![](images/insert-math-symbol-2018-08-12-18-15-12.png)
 
 - 嵌入 base64 图片
 
   当你粘贴图片或下载图片时，你可以通过留空文件名来强制扩展将嵌入的 base64 图片插入到 markdown 中。
 
-  ![](res/images/insert_embed_base64_image.gif)
+  ![](images/insert_embed_base64_image.gif)
 
 - AI 解析剪贴板
 

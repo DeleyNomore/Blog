@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "gohugoio.hugo-shortcode",
+        "ms-vscode.vscode-json",
+        "ms-vscode.powershell",
+        "formulahendry.auto-rename-tag",
+        "ms-vscode-remote.remote-wsl",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode.vscode-json",
+        "ms-vscode.vscode-xml",
+        "bradymholt.vscode-task-launcher",
+        "ms-vscode.vscode-remote-extensionpack"
+    ],
+    "unwantedRecommendations": []
+}
