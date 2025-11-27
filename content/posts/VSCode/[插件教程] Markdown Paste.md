@@ -24,10 +24,6 @@ keywords:
   - "智能粘贴"
   - "图片上传"
   - "文本转换"
-menu:
-  main:
-    parent: ""
-    weight: 500
 ---
 
 # Markdown Paste
