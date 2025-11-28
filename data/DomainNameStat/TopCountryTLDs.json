@@ -1,0 +1,3083 @@
+{
+    "top": [
+        {
+            "id": 1204,
+            "name": "cn",
+            "domains": 35921735,
+            "share": 0.110313,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1289,
+            "name": "de",
+            "domains": 28119369,
+            "share": 0.0863522,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1432,
+            "name": "tk",
+            "domains": 27491508,
+            "share": 0.0844241,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1225,
+            "name": "uk",
+            "domains": 24543854,
+            "share": 0.0753721,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1220,
+            "name": "ru",
+            "domains": 14292580,
+            "share": 0.0438913,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1231,
+            "name": "br",
+            "domains": 10151634,
+            "share": 0.0311748,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1379,
+            "name": "ga",
+            "domains": 9653214,
+            "share": 0.0296442,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1369,
+            "name": "nl",
+            "domains": 9080988,
+            "share": 0.0278869,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1405,
+            "name": "ml",
+            "domains": 7970959,
+            "share": 0.0244781,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1442,
+            "name": "ws",
+            "domains": 7962645,
+            "share": 0.0244526,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1279,
+            "name": "cf",
+            "domains": 7859327,
+            "share": 0.0241353,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1247,
+            "name": "fr",
+            "domains": 7453661,
+            "share": 0.0228896,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1287,
+            "name": "co",
+            "domains": 7119254,
+            "share": 0.0218626,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1375,
+            "name": "eu",
+            "domains": 6538604,
+            "share": 0.0200795,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1235,
+            "name": "it",
+            "domains": 6452901,
+            "share": 0.0198163,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1212,
+            "name": "in",
+            "domains": 6190635,
+            "share": 0.0190109,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1388,
+            "name": "gq",
+            "domains": 5997448,
+            "share": 0.0184176,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1200,
+            "name": "au",
+            "domains": 5919234,
+            "share": 0.0181775,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1021,
+            "name": "us",
+            "domains": 5653141,
+            "share": 0.0173603,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1198,
+            "name": "ca",
+            "domains": 5324484,
+            "share": 0.016351,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1339,
+            "name": "ph",
+            "domains": 5165313,
+            "share": 0.0158622,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1234,
+            "name": "pl",
+            "domains": 4347526,
+            "share": 0.0133509,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1277,
+            "name": "cc",
+            "domains": 3638315,
+            "share": 0.011173,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1227,
+            "name": "za",
+            "domains": 3596040,
+            "share": 0.0110431,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1281,
+            "name": "ch",
+            "domains": 3509716,
+            "share": 0.010778,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1295,
+            "name": "es",
+            "domains": 3155872,
+            "share": 0.00969141,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1254,
+            "name": "se",
+            "domains": 3116592,
+            "share": 0.00957079,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1285,
+            "name": "tw",
+            "domains": 2960230,
+            "share": 0.00909061,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1214,
+            "name": "jp",
+            "domains": 2611653,
+            "share": 0.00802016,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1403,
+            "name": "me",
+            "domains": 2598892,
+            "share": 0.00798097,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1203,
+            "name": "be",
+            "domains": 2551207,
+            "share": 0.00783454,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1213,
+            "name": "ir",
+            "domains": 2287457,
+            "share": 0.00702458,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1202,
+            "name": "at",
+            "domains": 2284630,
+            "share": 0.0070159,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1361,
+            "name": "cz",
+            "domains": 2125690,
+            "share": 0.00652781,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1209,
+            "name": "id",
+            "domains": 1925779,
+            "share": 0.0059139,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1374,
+            "name": "dk",
+            "domains": 1891259,
+            "share": 0.00580789,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1328,
+            "name": "mx",
+            "domains": 1807361,
+            "share": 0.00555025,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1393,
+            "name": "io",
+            "domains": 1749318,
+            "share": 0.00537201,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1476,
+            "name": "xn--p1ai",
+            "domains": 1599437,
+            "share": 0.00491173,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1365,
+            "name": "kr",
+            "domains": 1574169,
+            "share": 0.00483414,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1273,
+            "name": "no",
+            "domains": 1466785,
+            "share": 0.00450437,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1414,
+            "name": "nu",
+            "domains": 1320600,
+            "share": 0.00405545,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1197,
+            "name": "hu",
+            "domains": 1267710,
+            "share": 0.00389303,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1250,
+            "name": "tr",
+            "domains": 1243738,
+            "share": 0.00381941,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1265,
+            "name": "ua",
+            "domains": 1118927,
+            "share": 0.00343613,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1284,
+            "name": "cl",
+            "domains": 1102856,
+            "share": 0.00338678,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1243,
+            "name": "ro",
+            "domains": 1080249,
+            "share": 0.00331735,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1329,
+            "name": "my",
+            "domains": 1005380,
+            "share": 0.00308743,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1453,
+            "name": "xn--fiqs8s",
+            "domains": 971227,
+            "share": 0.00298255,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1217,
+            "name": "nz",
+            "domains": 960498,
+            "share": 0.00294961,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1236,
+            "name": "ai",
+            "domains": 959619,
+            "share": 0.00294691,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1242,
+            "name": "ar",
+            "domains": 922059,
+            "share": 0.00283156,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1226,
+            "name": "vn",
+            "domains": 836935,
+            "share": 0.00257016,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1435,
+            "name": "tv",
+            "domains": 790902,
+            "share": 0.00242879,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1238,
+            "name": "fi",
+            "domains": 767186,
+            "share": 0.00235596,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1420,
+            "name": "sk",
+            "domains": 765702,
+            "share": 0.00235141,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1302,
+            "name": "gr",
+            "domains": 712185,
+            "share": 0.00218706,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1454,
+            "name": "xn--fiqz9s",
+            "domains": 617615,
+            "share": 0.00189664,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1341,
+            "name": "pt",
+            "domains": 544911,
+            "share": 0.00167337,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1210,
+            "name": "il",
+            "domains": 519991,
+            "share": 0.00159685,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1473,
+            "name": "xn--node",
+            "domains": 517171,
+            "share": 0.00158819,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1384,
+            "name": "ie",
+            "domains": 501593,
+            "share": 0.00154035,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1331,
+            "name": "ng",
+            "domains": 469481,
+            "share": 0.00144173,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1201,
+            "name": "ae",
+            "domains": 425296,
+            "share": 0.00130605,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1460,
+            "name": "xn--kprw13d",
+            "domains": 407691,
+            "share": 0.00125198,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1316,
+            "name": "kz",
+            "domains": 372760,
+            "share": 0.00114471,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1293,
+            "name": "ee",
+            "domains": 342320,
+            "share": 0.00105124,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1385,
+            "name": "lt",
+            "domains": 340981,
+            "share": 0.00104712,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1305,
+            "name": "hk",
+            "domains": 312396,
+            "share": 0.000959341,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1416,
+            "name": "pw",
+            "domains": 311968,
+            "share": 0.000958026,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1262,
+            "name": "pk",
+            "domains": 302295,
+            "share": 0.000928322,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1348,
+            "name": "sg",
+            "domains": 296640,
+            "share": 0.000910956,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1275,
+            "name": "by",
+            "domains": 289066,
+            "share": 0.000887696,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1259,
+            "name": "bg",
+            "domains": 285863,
+            "share": 0.00087786,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1364,
+            "name": "ke",
+            "domains": 273912,
+            "share": 0.00084116,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1425,
+            "name": "su",
+            "domains": 268649,
+            "share": 0.000824998,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1336,
+            "name": "pe",
+            "domains": 237285,
+            "share": 0.000728681,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1222,
+            "name": "th",
+            "domains": 236773,
+            "share": 0.000727109,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1439,
+            "name": "vg",
+            "domains": 233639,
+            "share": 0.000717485,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1400,
+            "name": "li",
+            "domains": 222734,
+            "share": 0.000683997,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1419,
+            "name": "si",
+            "domains": 214910,
+            "share": 0.00065997,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1219,
+            "name": "rs",
+            "domains": 205830,
+            "share": 0.000632086,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1320,
+            "name": "lv",
+            "domains": 201251,
+            "share": 0.000618024,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1367,
+            "name": "ma",
+            "domains": 194553,
+            "share": 0.000597455,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1292,
+            "name": "ec",
+            "domains": 189769,
+            "share": 0.000582764,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1437,
+            "name": "uz",
+            "domains": 182446,
+            "share": 0.000560276,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1307,
+            "name": "hr",
+            "domains": 176631,
+            "share": 0.000542418,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1401,
+            "name": "lu",
+            "domains": 158602,
+            "share": 0.000487053,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1355,
+            "name": "tn",
+            "domains": 142008,
+            "share": 0.000436094,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1344,
+            "name": "sa",
+            "domains": 119737,
+            "share": 0.000367702,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1377,
+            "name": "fm",
+            "domains": 112791,
+            "share": 0.000346371,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1395,
+            "name": "is",
+            "domains": 110753,
+            "share": 0.000340112,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1356,
+            "name": "uy",
+            "domains": 105393,
+            "share": 0.000323652,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1255,
+            "name": "ba",
+            "domains": 103318,
+            "share": 0.00031728,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1333,
+            "name": "np",
+            "domains": 101893,
+            "share": 0.000312904,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1297,
+            "name": "ge",
+            "domains": 95989,
+            "share": 0.000294773,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1260,
+            "name": "bh",
+            "domains": 94362,
+            "share": 0.000289777,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1211,
+            "name": "im",
+            "domains": 93275,
+            "share": 0.000286439,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1246,
+            "name": "lk",
+            "domains": 90398,
+            "share": 0.000277604,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1357,
+            "name": "vc",
+            "domains": 89984,
+            "share": 0.000276333,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1362,
+            "name": "gg",
+            "domains": 85724,
+            "share": 0.000263251,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1286,
+            "name": "cm",
+            "domains": 83412,
+            "share": 0.000256151,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1358,
+            "name": "ve",
+            "domains": 80251,
+            "share": 0.000246443,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1239,
+            "name": "am",
+            "domains": 80116,
+            "share": 0.000246029,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1399,
+            "name": "la",
+            "domains": 80062,
+            "share": 0.000245863,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1229,
+            "name": "zw",
+            "domains": 76127,
+            "share": 0.000233779,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1386,
+            "name": "to",
+            "domains": 71715,
+            "share": 0.00022023,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1417,
+            "name": "re",
+            "domains": 68772,
+            "share": 0.000211192,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1353,
+            "name": "tj",
+            "domains": 68434,
+            "share": 0.000210154,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1270,
+            "name": "bo",
+            "domains": 64707,
+            "share": 0.000198709,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1216,
+            "name": "mw",
+            "domains": 64146,
+            "share": 0.000196986,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1253,
+            "name": "az",
+            "domains": 63714,
+            "share": 0.00019566,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1223,
+            "name": "tz",
+            "domains": 62963,
+            "share": 0.000193353,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1257,
+            "name": "bd",
+            "domains": 59392,
+            "share": 0.000182387,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1424,
+            "name": "st",
+            "domains": 56119,
+            "share": 0.000172336,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1291,
+            "name": "do",
+            "domains": 55220,
+            "share": 0.000169575,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1343,
+            "name": "qa",
+            "domains": 53436,
+            "share": 0.000164097,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1323,
+            "name": "mk",
+            "domains": 53013,
+            "share": 0.000162798,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1402,
+            "name": "md",
+            "domains": 50877,
+            "share": 0.000156238,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1258,
+            "name": "bf",
+            "domains": 50825,
+            "share": 0.000156079,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1418,
+            "name": "sh",
+            "domains": 50265,
+            "share": 0.000154359,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1237,
+            "name": "al",
+            "domains": 47239,
+            "share": 0.000145066,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1342,
+            "name": "py",
+            "domains": 43642,
+            "share": 0.00013402,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1276,
+            "name": "bz",
+            "domains": 43188,
+            "share": 0.000132626,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1321,
+            "name": "ly",
+            "domains": 41535,
+            "share": 0.00012755,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1406,
+            "name": "mn",
+            "domains": 40042,
+            "share": 0.000122965,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1249,
+            "name": "cx",
+            "domains": 39581,
+            "share": 0.000121549,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1199,
+            "name": "ac",
+            "domains": 37788,
+            "share": 0.000116043,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1282,
+            "name": "ci",
+            "domains": 37504,
+            "share": 0.000115171,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1317,
+            "name": "lb",
+            "domains": 36452,
+            "share": 0.00011194,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1350,
+            "name": "so",
+            "domains": 34827,
+            "share": 0.00010695,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1311,
+            "name": "kg",
+            "domains": 34277,
+            "share": 0.000105261,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1474,
+            "name": "xn--o3cw4h",
+            "domains": 33866,
+            "share": 0.000103999,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1215,
+            "name": "mu",
+            "domains": 33581,
+            "share": 0.000103124,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1303,
+            "name": "gt",
+            "domains": 29511,
+            "share": 9.0625e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1426,
+            "name": "sx",
+            "domains": 29315,
+            "share": 9.0023e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1319,
+            "name": "lr",
+            "domains": 29078,
+            "share": 8.9296e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1337,
+            "name": "pf",
+            "domains": 28632,
+            "share": 8.7926e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1233,
+            "name": "ag",
+            "domains": 28185,
+            "share": 8.6553e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1465,
+            "name": "xn--mgba3a4f16a",
+            "domains": 26244,
+            "share": 8.0593e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1218,
+            "name": "pa",
+            "domains": 25482,
+            "share": 7.8253e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1371,
+            "name": "cv",
+            "domains": 24376,
+            "share": 7.4856e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1245,
+            "name": "as",
+            "domains": 24337,
+            "share": 7.4736e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1206,
+            "name": "cy",
+            "domains": 23571,
+            "share": 7.2384e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1240,
+            "name": "ao",
+            "domains": 22362,
+            "share": 6.8671e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1205,
+            "name": "cr",
+            "domains": 21390,
+            "share": 6.5686e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1326,
+            "name": "mt",
+            "domains": 20902,
+            "share": 6.4188e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1410,
+            "name": "ms",
+            "domains": 20103,
+            "share": 6.1734e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1415,
+            "name": "pm",
+            "domains": 20025,
+            "share": 6.1495e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1368,
+            "name": "mz",
+            "domains": 19059,
+            "share": 5.8528e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1315,
+            "name": "ky",
+            "domains": 18926,
+            "share": 5.812e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1318,
+            "name": "lc",
+            "domains": 18699,
+            "share": 5.7423e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1380,
+            "name": "gb",
+            "domains": 18533,
+            "share": 5.6913e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1224,
+            "name": "ug",
+            "domains": 18468,
+            "share": 5.6713e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1458,
+            "name": "xn--j1amh",
+            "domains": 18432,
+            "share": 5.6603e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1340,
+            "name": "ps",
+            "domains": 17748,
+            "share": 5.4502e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1449,
+            "name": "xn--90ais",
+            "domains": 17518,
+            "share": 5.3796e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1274,
+            "name": "bw",
+            "domains": 17286,
+            "share": 5.3083e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1251,
+            "name": "aw",
+            "domains": 16785,
+            "share": 5.1545e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1349,
+            "name": "sn",
+            "domains": 16245,
+            "share": 4.9887e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1244,
+            "name": "dz",
+            "domains": 16080,
+            "share": 4.938e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1459,
+            "name": "xn--j6w193g",
+            "domains": 15963,
+            "share": 4.9021e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1389,
+            "name": "gs",
+            "domains": 15844,
+            "share": 4.8655e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1230,
+            "name": "ad",
+            "domains": 14843,
+            "share": 4.5581e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1221,
+            "name": "rw",
+            "domains": 13901,
+            "share": 4.2688e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1443,
+            "name": "xn--3e0b707e",
+            "domains": 13498,
+            "share": 4.1451e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1433,
+            "name": "tm",
+            "domains": 13409,
+            "share": 4.1177e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1335,
+            "name": "om",
+            "domains": 13028,
+            "share": 4.0007e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1351,
+            "name": "sv",
+            "domains": 12969,
+            "share": 3.9826e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1290,
+            "name": "dm",
+            "domains": 12780,
+            "share": 3.9246e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1306,
+            "name": "hn",
+            "domains": 11977,
+            "share": 3.678e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1232,
+            "name": "af",
+            "domains": 11910,
+            "share": 3.6574e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1296,
+            "name": "et",
+            "domains": 11415,
+            "share": 3.5054e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1322,
+            "name": "mg",
+            "domains": 11151,
+            "share": 3.4243e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1294,
+            "name": "eg",
+            "domains": 10881,
+            "share": 3.3414e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1486,
+            "name": "yt",
+            "domains": 10764,
+            "share": 3.3055e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1363,
+            "name": "je",
+            "domains": 10618,
+            "share": 3.2606e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1605,
+            "name": "xn--4dbrk0ce",
+            "domains": 10039,
+            "share": 3.0828e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1332,
+            "name": "ni",
+            "domains": 9314,
+            "share": 2.8602e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1300,
+            "name": "gl",
+            "domains": 9249,
+            "share": 2.8402e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1378,
+            "name": "fo",
+            "domains": 9247,
+            "share": 2.8396e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1428,
+            "name": "tc",
+            "domains": 8789,
+            "share": 2.699e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1352,
+            "name": "sy",
+            "domains": 8710,
+            "share": 2.6747e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1228,
+            "name": "zm",
+            "domains": 8695,
+            "share": 2.6701e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1278,
+            "name": "cd",
+            "domains": 8622,
+            "share": 2.6477e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1327,
+            "name": "mv",
+            "domains": 8606,
+            "share": 2.6428e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1412,
+            "name": "nc",
+            "domains": 8528,
+            "share": 2.6188e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1346,
+            "name": "sc",
+            "domains": 7969,
+            "share": 2.4472e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1263,
+            "name": "pr",
+            "domains": 7965,
+            "share": 2.4459e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1394,
+            "name": "iq",
+            "domains": 7931,
+            "share": 2.4355e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1411,
+            "name": "na",
+            "domains": 7696,
+            "share": 2.3633e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1392,
+            "name": "hm",
+            "domains": 7618,
+            "share": 2.3394e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1447,
+            "name": "xn--90a3ac",
+            "domains": 7597,
+            "share": 2.3329e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1430,
+            "name": "tf",
+            "domains": 7407,
+            "share": 2.2746e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1304,
+            "name": "gy",
+            "domains": 6917,
+            "share": 2.1241e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1252,
+            "name": "ax",
+            "domains": 6909,
+            "share": 2.1216e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1298,
+            "name": "gh",
+            "domains": 6491,
+            "share": 1.9933e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1448,
+            "name": "xn--90ae",
+            "domains": 6263,
+            "share": 1.9233e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1266,
+            "name": "bj",
+            "domains": 6123,
+            "share": 1.8803e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1261,
+            "name": "bi",
+            "domains": 6103,
+            "share": 1.8741e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1310,
+            "name": "jo",
+            "domains": 5720,
+            "share": 1.7565e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1441,
+            "name": "wf",
+            "domains": 5634,
+            "share": 1.7301e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1248,
+            "name": "mc",
+            "domains": 5516,
+            "share": 1.6939e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1347,
+            "name": "sd",
+            "domains": 5430,
+            "share": 1.6675e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1431,
+            "name": "tg",
+            "domains": 5219,
+            "share": 1.6027e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1207,
+            "name": "fj",
+            "domains": 5216,
+            "share": 1.6017e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1312,
+            "name": "kh",
+            "domains": 5193,
+            "share": 1.5947e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1264,
+            "name": "tt",
+            "domains": 4601,
+            "share": 1.4129e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1324,
+            "name": "mm",
+            "domains": 4544,
+            "share": 1.3954e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1308,
+            "name": "ht",
+            "domains": 4307,
+            "share": 1.3226e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1373,
+            "name": "dj",
+            "domains": 4285,
+            "share": 1.3158e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1268,
+            "name": "bm",
+            "domains": 4196,
+            "share": 1.2885e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1314,
+            "name": "kw",
+            "domains": 4071,
+            "share": 1.2501e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1381,
+            "name": "gd",
+            "domains": 4028,
+            "share": 1.2369e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1457,
+            "name": "xn--h2brj9c",
+            "domains": 3980,
+            "share": 1.2222e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1309,
+            "name": "jm",
+            "domains": 3972,
+            "share": 1.2197e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1440,
+            "name": "vu",
+            "domains": 3912,
+            "share": 1.2013e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1366,
+            "name": "ls",
+            "domains": 3817,
+            "share": 1.1721e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1325,
+            "name": "mo",
+            "domains": 3422,
+            "share": 1.0508e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1422,
+            "name": "sm",
+            "domains": 3419,
+            "share": 1.0499e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1299,
+            "name": "gi",
+            "domains": 3351,
+            "share": 1.029e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1461,
+            "name": "xn--kpry57d",
+            "domains": 3285,
+            "share": 1.0087e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1530,
+            "name": "xn--qxam",
+            "domains": 3267,
+            "share": 1.0032e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1423,
+            "name": "sr",
+            "domains": 3233,
+            "share": 9.928e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1338,
+            "name": "pg",
+            "domains": 3091,
+            "share": 9.492e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1280,
+            "name": "cg",
+            "domains": 3078,
+            "share": 9.452e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1271,
+            "name": "bs",
+            "domains": 3057,
+            "share": 9.387e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1354,
+            "name": "tl",
+            "domains": 3013,
+            "share": 9.252e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1409,
+            "name": "mr",
+            "domains": 3003,
+            "share": 9.221e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1421,
+            "name": "sl",
+            "domains": 2992,
+            "share": 9.188e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1345,
+            "name": "sb",
+            "domains": 2978,
+            "share": 9.145e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1387,
+            "name": "gp",
+            "domains": 2914,
+            "share": 8.948e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1383,
+            "name": "gm",
+            "domains": 2657,
+            "share": 8.159e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1272,
+            "name": "bt",
+            "domains": 2618,
+            "share": 8.039e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1413,
+            "name": "ne",
+            "domains": 2325,
+            "share": 7.139e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1427,
+            "name": "sz",
+            "domains": 2090,
+            "share": 6.418e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1360,
+            "name": "ye",
+            "domains": 2014,
+            "share": 6.184e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1456,
+            "name": "xn--gecrj9c",
+            "domains": 1888,
+            "share": 5.797e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1288,
+            "name": "cu",
+            "domains": 1829,
+            "share": 5.616e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1359,
+            "name": "vi",
+            "domains": 1744,
+            "share": 5.355e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1256,
+            "name": "bb",
+            "domains": 1743,
+            "share": 5.352e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1269,
+            "name": "bn",
+            "domains": 1682,
+            "share": 5.165e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1330,
+            "name": "nf",
+            "domains": 1466,
+            "share": 4.501e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1407,
+            "name": "mp",
+            "domains": 1446,
+            "share": 4.44e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1483,
+            "name": "xn--y9a3aq",
+            "domains": 1328,
+            "share": 4.078e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1466,
+            "name": "xn--mgbaam7a8h",
+            "domains": 1228,
+            "share": 3.771e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1408,
+            "name": "mq",
+            "domains": 1195,
+            "share": 3.669e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1469,
+            "name": "xn--mgberp4a5d4ar",
+            "domains": 1142,
+            "share": 3.506e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1429,
+            "name": "td",
+            "domains": 1106,
+            "share": 3.396e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1372,
+            "name": "cw",
+            "domains": 1045,
+            "share": 3.209e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1283,
+            "name": "ck",
+            "domains": 1044,
+            "share": 3.206e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1313,
+            "name": "ki",
+            "domains": 996,
+            "share": 3.058e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1478,
+            "name": "xn--s9brj9c",
+            "domains": 971,
+            "share": 2.981e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1452,
+            "name": "xn--e1a4c",
+            "domains": 961,
+            "share": 2.951e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1382,
+            "name": "gf",
+            "domains": 955,
+            "share": 2.932e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1577,
+            "name": "ss",
+            "domains": 883,
+            "share": 2.711e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1397,
+            "name": "kn",
+            "domains": 833,
+            "share": 2.558e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1370,
+            "name": "pn",
+            "domains": 777,
+            "share": 2.386e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1301,
+            "name": "gn",
+            "domains": 693,
+            "share": 2.128e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1446,
+            "name": "xn--80ao21a",
+            "domains": 684,
+            "share": 2.1e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1477,
+            "name": "xn--pgbs0dh",
+            "domains": 591,
+            "share": 1.814e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1391,
+            "name": "gw",
+            "domains": 580,
+            "share": 1.781e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1485,
+            "name": "xn--ygbi2ammx",
+            "domains": 576,
+            "share": 1.768e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1334,
+            "name": "nr",
+            "domains": 532,
+            "share": 1.633e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1532,
+            "name": "or",
+            "domains": 531,
+            "share": 1.63e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1445,
+            "name": "xn--54b7fta0cc",
+            "domains": 429,
+            "share": 1.317e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1438,
+            "name": "va",
+            "domains": 378,
+            "share": 1.16e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1451,
+            "name": "xn--d1alf",
+            "domains": 341,
+            "share": 1.047e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1592,
+            "name": "xn--h2brj9c8c",
+            "domains": 312,
+            "share": 9.58e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1396,
+            "name": "km",
+            "domains": 298,
+            "share": 9.15e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1522,
+            "name": "go",
+            "domains": 244,
+            "share": 7.49e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1600,
+            "name": "xn--qxa6a",
+            "domains": 238,
+            "share": 7.3e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1444,
+            "name": "xn--45brj9c",
+            "domains": 206,
+            "share": 6.32e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1468,
+            "name": "xn--mgbayh7gpa",
+            "domains": 195,
+            "share": 5.98e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1546,
+            "name": "en",
+            "domains": 192,
+            "share": 5.89e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1208,
+            "name": "fk",
+            "domains": 184,
+            "share": 5.65e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1500,
+            "name": "xn--fpcrj9c3d",
+            "domains": 180,
+            "share": 5.52e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1482,
+            "name": "xn--xkc2dl3a5ee0h",
+            "domains": 177,
+            "share": 5.43e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1241,
+            "name": "aq",
+            "domains": 169,
+            "share": 5.18e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1479,
+            "name": "xn--wgbh1c",
+            "domains": 159,
+            "share": 4.88e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1480,
+            "name": "xn--wgbl6a",
+            "domains": 158,
+            "share": 4.85e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1455,
+            "name": "xn--fzc2c9e2c",
+            "domains": 152,
+            "share": 4.66e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1599,
+            "name": "xn--q7ce6a",
+            "domains": 150,
+            "share": 4.6e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1267,
+            "name": "bl",
+            "domains": 146,
+            "share": 4.48e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1588,
+            "name": "xn--2scrj9c",
+            "domains": 144,
+            "share": 4.42e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1558,
+            "name": "og",
+            "domains": 129,
+            "share": 3.96e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1538,
+            "name": "on",
+            "domains": 124,
+            "share": 3.8e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1390,
+            "name": "gu",
+            "domains": 108,
+            "share": 3.31e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1542,
+            "name": "lo",
+            "domains": 94,
+            "share": 2.88e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1462,
+            "name": "xn--l1acc",
+            "domains": 91,
+            "share": 2.79e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1484,
+            "name": "xn--yfro4i67o",
+            "domains": 88,
+            "share": 2.7e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1475,
+            "name": "xn--ogbpf8fl",
+            "domains": 84,
+            "share": 2.57e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1536,
+            "name": "xy",
+            "domains": 83,
+            "share": 2.54e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1492,
+            "name": "da",
+            "domains": 80,
+            "share": 2.45e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1398,
+            "name": "kp",
+            "domains": 79,
+            "share": 2.42e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1545,
+            "name": "bu",
+            "domains": 76,
+            "share": 2.33e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1541,
+            "name": "ip",
+            "domains": 73,
+            "share": 2.24e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1527,
+            "name": "ho",
+            "domains": 71,
+            "share": 2.18e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1595,
+            "name": "xn--mgbbh1a71e",
+            "domains": 71,
+            "share": 2.18e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1531,
+            "name": "wi",
+            "domains": 70,
+            "share": 2.14e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1436,
+            "name": "um",
+            "domains": 69,
+            "share": 2.11e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1494,
+            "name": "fd",
+            "domains": 67,
+            "share": 2.05e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1601,
+            "name": "xn--rvc1e0am3e",
+            "domains": 65,
+            "share": 1.99e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1488,
+            "name": "ap",
+            "domains": 61,
+            "share": 1.87e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1534,
+            "name": "ex",
+            "domains": 61,
+            "share": 1.87e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1493,
+            "name": "ds",
+            "domains": 58,
+            "share": 1.78e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1529,
+            "name": "xi",
+            "domains": 53,
+            "share": 1.62e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1591,
+            "name": "xn--h2breg3eve",
+            "domains": 53,
+            "share": 1.62e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1533,
+            "name": "oi",
+            "domains": 45,
+            "share": 1.38e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1497,
+            "name": "iz",
+            "domains": 44,
+            "share": 1.35e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1525,
+            "name": "yo",
+            "domains": 44,
+            "share": 1.35e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1521,
+            "name": "uu",
+            "domains": 41,
+            "share": 1.25e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1496,
+            "name": "hq",
+            "domains": 40,
+            "share": 1.22e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1560,
+            "name": "xm",
+            "domains": 40,
+            "share": 1.22e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1580,
+            "name": "bq",
+            "domains": 39,
+            "share": 1.19e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1586,
+            "name": "mf",
+            "domains": 39,
+            "share": 1.19e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1587,
+            "name": "sj",
+            "domains": 38,
+            "share": 1.16e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1559,
+            "name": "ep",
+            "domains": 35,
+            "share": 1.07e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1557,
+            "name": "oa",
+            "domains": 34,
+            "share": 1.04e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1589,
+            "name": "xn--3hcrj9c",
+            "domains": 34,
+            "share": 1.04e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1376,
+            "name": "er",
+            "domains": 33,
+            "share": 1.01e-7,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1535,
+            "name": "yi",
+            "domains": 32,
+            "share": 9.8e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1463,
+            "name": "xn--lgbbat1ad8j",
+            "domains": 29,
+            "share": 8.9e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1593,
+            "name": "xn--mgbah1a3hjkrd",
+            "domains": 28,
+            "share": 8.5e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1481,
+            "name": "xn--xkc2al3hye2a",
+            "domains": 27,
+            "share": 8.2e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1404,
+            "name": "mh",
+            "domains": 26,
+            "share": 7.9e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1590,
+            "name": "xn--45br5cyl",
+            "domains": 24,
+            "share": 7.3e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1464,
+            "name": "xn--mgb9awbf",
+            "domains": 23,
+            "share": 7.0e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1472,
+            "name": "xn--mix891f",
+            "domains": 15,
+            "share": 4.6e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1594,
+            "name": "xn--mgbbh1a",
+            "domains": 15,
+            "share": 4.6e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1596,
+            "name": "xn--mgbcpq6gpa1a",
+            "domains": 15,
+            "share": 4.6e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1491,
+            "name": "bv",
+            "domains": 14,
+            "share": 4.2e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1487,
+            "name": "an",
+            "domains": 10,
+            "share": 3.0e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1450,
+            "name": "xn--clchc0ea0b2g2a9gcd",
+            "domains": 9,
+            "share": 2.7e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1597,
+            "name": "xn--mgbgu82a",
+            "domains": 9,
+            "share": 2.7e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1470,
+            "name": "xn--mgbpl2fh",
+            "domains": 6,
+            "share": 1.8e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1502,
+            "name": "xn--mgbc0a9azcg",
+            "domains": 6,
+            "share": 1.8e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1434,
+            "name": "tp",
+            "domains": 5,
+            "share": 1.5e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1467,
+            "name": "xn--mgbai9azgqp6j",
+            "domains": 4,
+            "share": 1.2e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1471,
+            "name": "xn--mgbtx2b",
+            "domains": 4,
+            "share": 1.2e-8,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1583,
+            "name": "eh",
+            "domains": 1,
+            "share": 3.0e-9,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 1598,
+            "name": "xn--mgbx4cd0ab",
+            "domains": 0,
+            "share": 0,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        }
+    ],
+    "total": 325635920
+}

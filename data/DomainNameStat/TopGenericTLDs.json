@@ -1,0 +1,77 @@
+{
+    "top": [
+        {
+            "id": 220,
+            "name": "com",
+            "domains": 302390728,
+            "share": 0.869396,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 684,
+            "name": "net",
+            "domains": 24450789,
+            "share": 0.0702978,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 731,
+            "name": "org",
+            "domains": 20898609,
+            "share": 0.060085,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 500,
+            "name": "int",
+            "domains": 43707,
+            "share": 0.00012566,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 427,
+            "name": "gov",
+            "domains": 16379,
+            "share": 4.709e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 308,
+            "name": "edu",
+            "domains": 8889,
+            "share": 2.5556e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 58,
+            "name": "arpa",
+            "domains": 7361,
+            "share": 2.1163e-5,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        },
+        {
+            "id": 644,
+            "name": "mil",
+            "domains": 700,
+            "share": 2.012e-6,
+            "tlds": -1,
+            "signedZones": -1,
+            "upcomingDeletes": -1
+        }
+    ],
+    "total": 347817162
+}

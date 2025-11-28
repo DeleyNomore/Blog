@@ -19,6 +19,7 @@ taxonomies:
 
 minify:
   disableXML: true
+  disableJSON: true
   # minifyOutput: true
 
 pagination:
