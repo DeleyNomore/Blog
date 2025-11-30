@@ -2,31 +2,19 @@
 {{- $href := $u.String -}}
 {{- if not $u.IsAbs -}}
   {{- $path := strings.TrimPrefix "./" $u.Path -}}
-  
-  {{- /* Check if the path starts with "res/" */ -}}
-  {{- if hasPrefix $path "res/" -}}
-    {{- /* For paths like "res/filename.csv", get from page resources */ -}}
-    {{- $resPath := strings.TrimPrefix "res/" $path -}}
-    {{- with .Page.Resources.GetMatch $resPath -}}
-      {{- $href = .RelPermalink -}}
-    {{- else -}}
-      {{- /* If not found in page resources, use relative path */ -}}
-      {{- $href = $path -}}
-    {{- end -}}
+
+  {{- /* First, try to get from current page's resources */ -}}
+  {{- with .Page.Resources.GetMatch $path -}}
+    {{- $href = .RelPermalink -}}
   {{- else -}}
-    {{- /* First, try to get from current page's resources */ -}}
-    {{- with .Page.Resources.GetMatch $path -}}
-      {{- $href = .RelPermalink -}}
+    {{- /* If not found in page resources, check for sibling directories 'images' or 'res' */ -}}
+    {{- if eq (path.Dir $path) "images" -}}
+      {{- $href = printf "../images/%s" (path.Base $path) -}}
+    {{- else if eq (path.Dir $path) "res" -}}
+      {{- $href = printf "../res/%s" (path.Base $path) -}}
     {{- else -}}
-      {{- /* If not found in page resources, check if it's a relative path to sibling images directory */ -}}
-      {{- if eq (path.Dir $path) "images" -}}
-        {{- /* For paths like "images/filename.png", use relative path to support subdirectory deployment */ -}}
-        {{- $relativeImagePath := printf "../images/%s" (path.Base $path) -}}
-        {{- $href = $relativeImagePath -}}
-      {{- else -}}
-        {{- /* For other relative paths, keep them as-is to maintain relative positioning */ -}}
-        {{- $href = $path -}}
-      {{- end -}}
+      {{- /* For other relative paths, keep them as-is */ -}}
+      {{- $href = $path -}}
     {{- end -}}
   {{- end -}}
 
