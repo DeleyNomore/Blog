@@ -4,6 +4,7 @@ date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Docker"]
 tags: ["docker", "centos", "宝塔面板", "portainer", "安装指南"]
+slug: "centos7-baota-install-docker-webui-management-panel-portainer-chinese"
 ---
 
 

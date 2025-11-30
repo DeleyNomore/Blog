@@ -4,6 +4,7 @@ date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Linux"]
 tags: ["linux", "centos", "宝塔面板", "php", "zip 扩展"]
+slug: "baota-php73-install-zip-extension"
 ---
 
 ### 1. 编译安装 CMake 3.16.2

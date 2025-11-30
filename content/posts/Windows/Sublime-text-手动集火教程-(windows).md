@@ -4,6 +4,7 @@ date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Windows"]
 tags: ["windows", "sublime text", "破解教程", "编辑器"]
+slug: "sublime-text-manual-configuration-tutorial-windows"
 ---
 
 1. 备份原始 sublime_text.exe 到 sublime_text.exe.bak 

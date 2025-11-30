@@ -3,7 +3,8 @@ title: "Visual Studio 2022 安装到非系统盘完全指南"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Windows"]
-tags: ["windows", "visual studio", "安装指南", "非系统盘", "开发环境"]
+tags: ["windows", "visual studio", "安装", "非系统盘", "教程"]
+slug: "visual-studio-2022-installation-complete-guide-to-non-system-drive"
 ---
 
 Visual Studio 是一款功能强大但庞大臃肿的集成开发环境，

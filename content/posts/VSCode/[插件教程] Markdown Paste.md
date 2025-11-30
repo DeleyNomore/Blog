@@ -24,6 +24,7 @@ keywords:
   - "智能粘贴"
   - "图片上传"
   - "文本转换"
+slug: "plugin-tutorial-markdown-paste"
 ---
 
 # Markdown Paste

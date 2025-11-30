@@ -4,6 +4,7 @@ date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Linux"]
 tags: ["linux", "centos", "libzip", "编译安装", "依赖库"]
+slug: "centos7-compile-and-install-libzip-1-8-0"
 ---
 
 CentOS 7 源码安装 libzip 1.8.0，解决 `error: Please reinstall the libzip distributio` 或 `error: system libzip must be upgraded to version >= 0.11` 错误。

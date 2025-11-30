@@ -4,6 +4,7 @@ date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Docker"]
 tags: ["docker", "kubernetes", "容器", "编排", "工具索引"]
+slug: "2025-edition-docker-k8s-ecosystem-tools-index-by-function-and-tag"
 ---
 
 # Docker/Kubernetes 生态工具分类索引与标签速查（2025 版）

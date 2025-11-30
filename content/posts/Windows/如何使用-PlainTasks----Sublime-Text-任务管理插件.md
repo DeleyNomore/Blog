@@ -4,6 +4,7 @@ date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Windows"]
 tags: ["windows", "sublime text", "plaintasks", "任务管理", "插件"]
+slug: "how-to-use-plaintasks-sublime-text-task-management-plugin"
 ---
 
 > PlainTasks 是一个用于 Sublime Text 的插件，旨在帮助用户管理待办事项和任务列表。它提供了一个简单而高效的方式来创建、组织和跟踪任务。PlainTasks 支持多种文件类型，可以根据系统时间动态高亮显示即将到期或已过期的任务，并提供自定义功能，如项目符号、文件类型、键绑定、日期格式、颜色方案等。此外，它还具有方便的编辑器工具，如移动任务、查看项目列表和拼写检查等功能。以下是如何自定义和使用 PlainTasks 的详细说明。(Tutorial.todo 汉化版)

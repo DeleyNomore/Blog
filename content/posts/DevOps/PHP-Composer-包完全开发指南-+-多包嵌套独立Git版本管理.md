@@ -4,6 +4,7 @@ date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["DevOps"]
 tags: ["php", "composer", "git", "版本管理", "包管理"]
+slug: "php-composer-package-complete-development-guide-multiple-packages-nested-git-version-management"
 ---
 
 # 本地开发、Git 独立管理与线上部署完整解决方案

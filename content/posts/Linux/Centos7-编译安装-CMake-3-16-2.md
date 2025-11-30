@@ -1,9 +1,10 @@
 ﻿---
-title: "Centos7 编译安装 CMake 3 16 2"
+title: "Centos7 编译安装 CMake 3.16.2"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Linux"]
-tags: ["linux", "centos", "cmake", "编译安装", "开发环境"]
+tags: ["linux", "centos", "cmake", "编译安装", "构建工具"]
+slug: "centos7-compile-and-install-cmake-3-16-2"
 ---
 
 CentOS 7 源码安装 CMake 3.16.2 最新稳定版。解决 `cmake: command not found` 问题。

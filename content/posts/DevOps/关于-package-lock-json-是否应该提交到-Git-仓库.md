@@ -4,6 +4,7 @@ date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["DevOps"]
 tags: ["npm", "git", "package-lock", "版本控制", "依赖管理"]
+slug: "about-package-lock-json-should-it-be-committed-to-git-repository"
 ---
 
 关于 `package-lock.json` 是否应该提交到 Git 仓库，以下是经过验证的行业实践和技术分析：

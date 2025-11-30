@@ -4,6 +4,7 @@ date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Js"]
 tags: ["javascript", "jquery", "vue", "前端", "事件处理"]
+slug: "update-vue-model-with-jquery"
 ---
 
 用Jquery更新vue模型

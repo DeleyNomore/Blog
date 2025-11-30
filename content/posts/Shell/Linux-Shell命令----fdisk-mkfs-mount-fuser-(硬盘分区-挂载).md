@@ -4,6 +4,7 @@ date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Shell"]
 tags: ["linux", "shell", "fdisk", "mkfs", "mount", "硬盘分区"]
+slug: "linux-shell-commands-fdisk-mkfs-mount-fuser-disk-partition-mount"
 ---
 
 <br>

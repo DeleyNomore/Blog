@@ -3,7 +3,8 @@ title: "Mysql 查询同一名字下时间差小于 5 秒的记录"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["Mysql"]
-tags: ["mysql", "sql", "查询优化", "时间差查询", "分组查询"]
+tags: ["mysql", "sql", "时间差", "查询", "时间函数"]
+slug: "mysql-query-records-with-time-difference-less-than-5-seconds-under-same-name"
 ---
 
 ### 题目如下

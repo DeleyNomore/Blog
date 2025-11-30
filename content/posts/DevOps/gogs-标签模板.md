@@ -3,7 +3,8 @@ title: "gogs 标签模板"
 date: 2025-11-14T08:22:46+08:00
 draft: false
 categories: ["DevOps"]
-tags: ["gogs", "git", "标签模板", "项目管理"]
+tags: ["gogs", "标签", "模板", "版本管理", "git"]
+slug: "gogs-label-template"
 ---
 
 ```txt
