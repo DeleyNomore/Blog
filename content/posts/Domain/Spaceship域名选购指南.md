@@ -1103,4 +1103,4 @@ slug: "spaceship-domain-guide"
 
 - 注册商：https://www.spaceship.com/
 - 数据来源：https://domainnamestat.com/
-- 数据下载：[SpaceshipTopTLDs.csv](../res/SpaceshipTopTLDs.csv)
+- 数据下载：[SpaceshipTopTLDs.csv](res/SpaceshipTopTLDs.csv)

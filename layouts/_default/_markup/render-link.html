@@ -1,0 +1,51 @@
+{{- $u := urls.Parse .Destination -}}
+{{- $href := $u.String -}}
+{{- if not $u.IsAbs -}}
+  {{- $path := strings.TrimPrefix "./" $u.Path -}}
+  
+  {{- /* Check if the path starts with "res/" */ -}}
+  {{- if hasPrefix $path "res/" -}}
+    {{- /* For paths like "res/filename.csv", get from page resources */ -}}
+    {{- $resPath := strings.TrimPrefix "res/" $path -}}
+    {{- with .Page.Resources.GetMatch $resPath -}}
+      {{- $href = .RelPermalink -}}
+    {{- else -}}
+      {{- /* If not found in page resources, use relative path */ -}}
+      {{- $href = $path -}}
+    {{- end -}}
+  {{- else -}}
+    {{- /* First, try to get from current page's resources */ -}}
+    {{- with .Page.Resources.GetMatch $path -}}
+      {{- $href = .RelPermalink -}}
+    {{- else -}}
+      {{- /* If not found in page resources, check if it's a relative path to sibling images directory */ -}}
+      {{- if eq (path.Dir $path) "images" -}}
+        {{- /* For paths like "images/filename.png", use relative path to support subdirectory deployment */ -}}
+        {{- $relativeImagePath := printf "../images/%s" (path.Base $path) -}}
+        {{- $href = $relativeImagePath -}}
+      {{- else -}}
+        {{- /* For other relative paths, keep them as-is to maintain relative positioning */ -}}
+        {{- $href = $path -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with $u.RawQuery -}}
+    {{- $href = printf "%s?%s" $href . -}}
+  {{- end -}}
+  {{- with $u.Fragment -}}
+    {{- $href = printf "%s#%s" $href . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $attributes := merge .Attributes (dict "href" $href) -}}
+{{- if .Title -}}
+  {{- $attributes = merge $attributes (dict "title" (.Title | transform.HTMLEscape)) -}}
+{{- end -}}
+<a
+  {{- range $k, $v := $attributes -}}
+    {{- if $v -}}
+      {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
+    {{- end -}}
+  {{- end -}}
+  >{{ .Text }}</a>
