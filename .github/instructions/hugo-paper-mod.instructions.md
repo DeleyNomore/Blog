@@ -8,7 +8,7 @@ applyTo: '**'
 - 项目：使用 Hugo + PaperMod 主题的静态博客
 - 仓库：DeleyNomore/Blog
 - 主题：PaperMod (git 子模块)
-- 语言：中文 (zh-cn)
+- 语言：中文 (zh)
 
 ## 核心配置文件路径
 - **站点配置**: `hugo.yaml`
@@ -24,7 +24,7 @@ applyTo: '**'
 - **Hugo 版本**: v0.152.2 (extended) - 项目当前使用版本，高于 PaperMod 最低要求 v0.146.0
 - **主题配置**: `theme: ["PaperMod"]`
 - **基础 URL**: `baseURL: "/"` (相对链接)
-- **语言代码**: `languageCode: zh-cn`
+- **语言代码**: `languageCode: zh`
 - **菜单配置**: 已配置文章/分类/搜索/标签/WiKi 导航
 - **搜索功能**: 依赖 `outputs.home` 包含 `JSON` 格式
 - **Front Matter**: categories 使用数组格式 `["分类名"]`
