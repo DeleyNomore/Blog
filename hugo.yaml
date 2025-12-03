@@ -67,7 +67,7 @@ params:
       👋 欢迎来到 DeleyNomore 的技术笔记。
 
       - 记录与分享：DevOps / Docker / Linux / JS / MySQL / Windows 等实践与随笔。
-      - 导航提示：顶部可直达 Archive / Search / Tags / WiKi，左上角可切换明暗主题。
+      - 导航提示：顶部可直达 归档 / 搜索 / 标签 / WiKi，左上角可切换明暗主题。
       - 参与共建：如果内容对你有帮助，欢迎在 [GitHub](https://github.com/DeleyNomore/Blog) 点 Star 或提交建议。
       - 延伸阅读：更多说明见本站 [WiKi](https://github.com/DeleyNomore/Blog/wiki)。
 
@@ -130,6 +130,9 @@ menu:
     - name: "🏷️ 标签"
       url: tags/
       weight: 40
+    - name: "📁 归档"
+      url: archives/
+      weight: 45
     - name: "📘 WiKi"
       url: https://github.com/DeleyNomore/Blog/wiki
       weight: 50

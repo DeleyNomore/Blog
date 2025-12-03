@@ -9,8 +9,6 @@ tags: ["MCP", "本地记忆", "选型分析", "Sequential Thinking", "决策框�
 
 ---
 
-# 本地记忆 MCP 选型完全指南
-
 > **基于 Sequential Thinking 方法论的系统性分析报告**
 > 
 > 本文综合了 7 个 AI 模型（Claude、DeepSeek、Gemini、GLM、GPT、Grok、Qwen）对 9 个本地内存记忆 MCP 项目的深度调研，运用 SMART 原则、5W2H 分析法、MECE 原则、鱼骨图、六顶思考帽、金字塔原理等多种思维框架，为您提供全方位的选型决策指南。
