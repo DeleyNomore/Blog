@@ -1,11 +1,12 @@
 ---
-title: "本地记忆 MCP 选型完全指南：基于系统性分析的决策框架"
+title: "本地记忆 MCP 选型完全指南 - 基于系统性分析的决策框架"
 date: '2025-12-04T00:00:00+08:00'
 draft: false
-categories: ["AI"]
+slug: "local-memory-mcp-selection-guide"
+description: "全面分析 9 个本地内存记忆 MCP 项目，基于 7 个 AI 模型的深度调研和多种思维框架，为您提供 Windows 10 环境下编程 AI 记忆系统的选型决策指南。涵盖 memory-bank-mcp、basic-memory、cipher 等方案的详细对比评测。"
+categories: ["AI", "MCP"]
 tags: ["MCP", "本地记忆", "选型分析", "Sequential Thinking", "决策框架", "隐私保护", "Windows10"]
-ShowToc: true
-TocOpen: true
+
 ---
 
 # 本地记忆 MCP 选型完全指南

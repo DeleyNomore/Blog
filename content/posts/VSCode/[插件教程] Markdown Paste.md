@@ -27,8 +27,6 @@ keywords:
 slug: "plugin-tutorial-markdown-paste"
 ---
 
-# Markdown Paste
-
 智能 Markdown 粘贴。
 
 **支持 Mac/Windows/Linux！**。

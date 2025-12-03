@@ -1,20 +1,15 @@
 {{- $scratch := newScratch }}
 
 {{- if not .Date.IsZero -}}
-{{- $monthNum := .Date | time.Format "1" -}}
-{{- $day := .Date | time.Format "2" -}}
-{{- $monthMap := dict "1" "一月" "2" "二月" "3" "三月" "4" "四月" "5" "五月" "6" "六月" "7" "七月" "8" "八月" "9" "九月" "10" "十月" "11" "十一月" "12" "十二月" -}}
-{{- $monthZH := index $monthMap $monthNum -}}
-{{- $dateStr := printf "%s %s" $monthZH $day -}}
-{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) $dateStr)) }}
+{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format "2006 年 1 月 2 日"))) }}
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (printf "<span>%s</span>" (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime)))) }}
+{{- $scratch.Add "meta" (slice (printf "<span>%s</span>" (i18n "read_time" .ReadingTime))) }}
 {{- end }}
 
 {{- if (.Param "ShowWordCount") -}}
-{{- $scratch.Add "meta" (slice (printf "<span>%s</span>" (i18n "words" .WordCount | default (printf "%d words" .WordCount)))) }}
+{{- $scratch.Add "meta" (slice (printf "<span>%s</span>" (i18n "words" .WordCount))) }}
 {{- end }}
 
 {{- if not (.Param "hideAuthor") -}}

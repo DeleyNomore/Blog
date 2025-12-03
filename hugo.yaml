@@ -50,6 +50,7 @@ params:
   DateFormat: "1 月 2"
   ShowShareButtons: true
   ShowReadingTime: true
+  ShowWordCount: true
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
