@@ -48,3 +48,6 @@ ehthumbs.db
 
 # 说明：父仓库不会追踪子模块内部文件变更（由子模块自身仓库管理）。
 # 站点定制请放在站点层（assets/layouts/static 等），不要直接改子模块源码。
+
+# OpenMemory - IDE/Assistant specific rules
+.github\instructions\openmemory.instructions.md
